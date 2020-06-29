@@ -1,0 +1,63 @@
+- name: Dr. Vince Spata
+  photo: vince.png
+  info: Postdoc, started March 2020
+  email: vspata27@gmail.com
+  number_educ: 1
+  education1: Ph.D in Physical Chemistry, Temple University, Philadelphia, USA (2016)
+
+- name: Dr. Cate Anst<span>&#246;</span>ter
+  photo: cate.jpeg
+  info: Postdoc, started Jan 2020
+  email: csanstoter@gmail.com
+  number_educ: 1
+  education1: Ph.D in Physical Chemistry, Durham University, UK (2019)
+
+- name: Pratip Chakraborty
+  photo: pratip.jpeg
+  info: PhD student, started Aug 2015
+  email: pratip.chakraborty@temple.edu
+  number_educ: 1
+  education1: Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Mohali, India (2015)
+
+- name: Mushir ul Hasan
+  photo: mushir.jpeg
+  info: PhD Student, started Aug 2017
+  email: mushir@temple.edu
+  number_educ: 1
+  education1: Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Mohali, India (2017)
+
+- name: Salsabil Abou-Hatab
+  photo: salsa.jpg
+  info: PhD Student, started Aug 2017
+  email: salsa.abouhatab@temple.edu
+  number_educ: 1
+  education1: Bachelors in Chemistry, Temple University, Philadelphia, USA (2016)
+
+- name: Mohammed Sorour
+  photo: sorour.jpg
+  info: PhD Student, started Aug 2018
+  email: Mohammed.Sorour@temple.edu
+  number_educ: 2
+  education1: Bachelors in Pharmaceutical Sciences, Misr University of Science and Technology, Egypt (2011)
+  education2: Masters in Pharmaceutical Sciences, Temple University, Philadelphia, USA (2016)
+
+- name: Vaibhav Singh
+  photo: vaibhav.jpeg
+  info: PhD Student, started Aug 2019
+  email: tuj86429@temple.edu
+  number_educ: 1
+  education1: Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Pune, India (2019)
+
+- name: Drew Behrendt
+  photo: drew.jpg
+  info: Undergraduate Researcher
+  email: tug49383@temple.edu
+  number_educ: 1
+  education1: Senior year at Temple University, Philadelphia, USA
+
+- name: Camilo Zuluaga
+  photo: cam.jpg
+  info: Undergraduate Researcher
+  email: tug63828@temple.edu
+  number_educ: 1
+  education1: Senior year at Temple University, Philadelphia, USA
