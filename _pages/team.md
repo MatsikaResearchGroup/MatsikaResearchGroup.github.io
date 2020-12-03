@@ -25,7 +25,7 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}><br><!--[Full CV]({{ site.url }}{{ site.baseurl }}/downloads/cv_Matsika_August2019.pdf)--></i><a href="{{ site.url }}{{ site.baseurl }}/downloads/cv_Matsika_August2019.pdf"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/cv.png" width="30" height="30"></a>
+  <i>{{ member.info }}<br>email: <{{ member.email }}><br><!--[Full CV]({{ site.url }}{{ site.baseurl }}/downloads/cv_Matsika_August2020.pdf)--></i><a href="{{ site.url }}{{ site.baseurl }}/downloads/cv_Matsika_August2020.pdf"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/cv.png" width="30" height="30"></a>
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
