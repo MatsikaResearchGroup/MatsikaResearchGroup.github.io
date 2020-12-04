@@ -48,16 +48,24 @@
   number_educ: 1
   education1: Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Pune, India (2019)
 
-- name: Drew Behrendt
-  photo: drew.jpg
-  info: Undergraduate Researcher
-  email: tug49383@temple.edu
-  number_educ: 1
-  education1: Senior year at Temple University, Philadelphia, USA
-
 - name: Camilo Zuluaga
   photo: cam.jpg
   info: Undergraduate Researcher
   email: tug63828@temple.edu
   number_educ: 1
   education1: Senior year at Temple University, Philadelphia, USA
+
+- name: Nathan Mackouse
+  photo: person.gif
+  info: Started 2020
+  email: nmackouse@temple.edu
+  number_educ: 1
+  education1: Undergrad at Temple University, Philadelphia, USA
+
+- name: Khai Nguyen
+  photo: person.gif
+  info: Started 2020
+  email: khainguyen@temple.edu
+  number_educ: 1
+  education1: Undergrad at Temple University, Philadelphia, USA
+
