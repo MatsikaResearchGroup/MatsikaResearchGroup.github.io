@@ -1,20 +1,20 @@
+- title: "Electronic structure methods for the description of nonadiabatic effects and conical intersections"
+  image: 
+  description: 
+  authors: Spiridoula Matsika
+  link:
+    url: 
+    display:  Chem. Rev. <i>submitted</i> (2021)
+  highlight: 0
+  news2:
+
 - title: "Modeling Solvation Effects on Absorption and Fluorescence Spectra of Indole in Aqueous Solution"
   image: 
   description: 
   authors: Salsa Abou-Hatab, Vincenzo Carnevale and Spiridoula Matsika
   link:
-    url: 
-    display:  J. Chem. Phys., <i>submitted</i> (2020)
-  highlight: 0
-  news2:
-
-- title: "Molecular docking and dynamics simulation reveal the potential role of NSAIDs to inhibit COVID-19 virus main protease: Future Repurposing"
-  image: 
-  description: 
-  authors: Ayman Abo Maaty, Mohammed Sorour, Spiridoula Matsika and Ahmed Al-karmalawy
-  link:
-    url: 
-    display:  J. Comput. Chem., <i>submitted</i> (2020)
+    url: https://aip.scitation.org/doi/10.1063/5.0038342
+    display:  J. Chem. Phys., 154, 064104 (2021)
   highlight: 0
   news2:
 
@@ -23,8 +23,8 @@
   description: 
   authors: Camilo Zuluaga, Vince Spata and Spiridoula Matsika
   link:
-    url: 
-    display:  J. Chem. Theory Comput., <i>submitted</i> (2020)
+    url: https://doi.org/10.1021/acs.jctc.0c00973
+    display:  J. Chem. Theory Comput.,17, 376-387, (2021)
   highlight: 0
   news2:
 
