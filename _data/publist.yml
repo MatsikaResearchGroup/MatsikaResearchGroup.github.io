@@ -1,11 +1,51 @@
-- title: "Electronic structure methods for the description of nonadiabatic effects and conical intersections"
+- title: "A unique QP-partitioning and Siegert width using real-valued continuum remover potential"
   image: 
   description: 
+  authors: Y Sajeev, M Thodika and S. Matsika
+  link:
+    url:
+    display:  J. Chem. Theory Comput. <i>(submitted)</i>
+  highlight: 0
+  news2:
+
+- title: "Accurate Modeling of Excitonic Coupling in Cyanine Dye Cy3"
+  image: 
+  description: 
+  authors: MI Sorour, KA Kistler, AH Marcus, S Matsika
+  link:
+    url: https://pubs.acs.org/doi/full/10.1021/acs.jpca.1c05556
+    display:  J. Phys. Chem. A 125, 36, 7852–7866 (2021)
+  highlight: 0
+  news2:
+
+- title: "Modeling the Ultrafast Electron Attachment Dynamics of Solvated Uracil"
+  image: 
+  description: 
+  authors: CS Anst<span>&#246;</span>ter, M DelloStritto, ML Klein, S Matsika
+  link:
+    url: https://pubs.acs.org/doi/full/10.1021/acs.jpca.1c05288
+    display:  J. Phys. Chem. A 125, 32, 6995–7003 (2021)
+  highlight: 0
+  news2:
+
+- title: "Time Resolved Photoelectron Spectroscopy as a Test of Electronic Structure and Nonadiabatic Dynamics"
+  image: testpratip.gif
+  description: We compare different levels of theory for simulating excited state molecular dynamics and use time-resolved photoelectron spectroscopy measurements to benchmark the theory. We perform trajectory surface hopping simulations for uracil excited to the first bright state (ππ*) using three different levels of theory (CASSCF, MRCIS, and XMS-CASPT2) in order to understand the role of dynamical correlation in determining the excited state dynamics, with a focus on the coupling between different electronic states and internal conversion back to the ground state. These dynamics calculations are used to simulate the time-resolved photoelectron spectra. The comparison of the calculated and measured spectra allows us to draw conclusions regarding the relative insights and quantitative accuracy of the calculations at the three different levels of theory, demonstrating that detailed quantitative comparisons of time-resolved photoelectron spectra can be used to benchmark methodology. 
+  authors: P Chakraborty, Y Liu, S McClung, T Weinacht, S Matsika
+  link:
+    url: https://pubs.acs.org/doi/full/10.1021/acs.jpclett.1c00926
+    display:  J. Phys. Chem. Lett. 12, 21, 5099–5104 (2021)
+  highlight: 1
+  news2:
+
+- title: "Electronic structure methods for the description of nonadiabatic effects and conical intersections"
+  image: ci.gif 
+  description: Nonadiabatic effects are ubiquitous in photophysics and photochemistry, and therefore, many theoretical developments have been made to properly describe them. Conical intersections are central in nonadiabatic processes, as they promote efficient and ultrafast nonadiabatic transitions between electronic states. A proper theoretical description requires developments in electronic structure and specifically in methods that describe conical intersections between states and nonadiabatic coupling terms. This review focuses on the electronic structure aspects of nonadiabatic processes. We discuss the requirements of electronic structure methods to describe conical intersections and nonadiabatic couplings, how the most common excited state methods perform in describing these effects, and what the recent developments are in expanding the methodology and implementing nonadiabatic couplings. 
   authors: Spiridoula Matsika
   link:
-    url: 
-    display:  Chem. Rev. <i>submitted</i> (2021)
-  highlight: 0
+    url: https://pubs.acs.org/doi/abs/10.1021/acs.chemrev.1c00074
+    display:  Chem. Rev., 121, 9407–9449 (2021)
+  highlight: 1
   news2:
 
 - title: "Modeling Solvation Effects on Absorption and Fluorescence Spectra of Indole in Aqueous Solution"
@@ -79,13 +119,13 @@
   news2:
 
 - title: "Excited State Dynamics of cis,cis-1,3-Cyclooctadiene<span>&#58;</span> Non-adiabatic Trajectory Surface Hopping"
-  image: pratip-cod.jpeg
-  description: We have performed trajectory surface hopping dynamics for cis,cis-1,3-cyclooctadiene to investigate the photochemical pathways involved after being excited to the S1 state. Our calculations reveal ultrafast decay to the ground state, facilitated by conical intersections involving distortions around the double bonds. The main distortions are localized on one double bond, involving twisting and pyramidalization of one of the carbons of that double bond (similar to ethylene), while a limited number of trajectories decay via delocalized (non-local) twisting of both double bonds. The interplay between local and non-local distortions is important in our understanding of photoisomerization in conjugated systems. The calculations show that a broad range of the conical intersection seam space is accessed during the non-adiabatic events. Several products formed on the ground state have also been observed.
+  image: 
+  description: 
   authors: Pratip Chakraborty, Yusong Liu, Thomas Weinacht, and Spiridoula Matsika
   link:
     url: https://aip.scitation.org/doi/10.1063/5.0005558
     display:  J. Chem. Phys., 152, 174302 (2020)
-  highlight: 1
+  highlight: 0
   news2:
 
 - title: "The Generality of the GUGA MRCI Approach in COLUMBUS for Treating Complex Quantum

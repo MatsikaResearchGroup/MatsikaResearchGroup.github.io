@@ -65,37 +65,6 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/vince.png" class="img-responsive" width="25%" style="float: left" />
-  <h4>Dr. Vince Spata</h4>
-  <i>Postdoc, started March 2020<br>email: <vspata27@gmail.com></i>
-  <ul style="overflow: hidden">
-
-  
-  <li> Ph.D in Physical Chemistry, Temple University, Philadelphia, USA (2016) </li>
-  
-
-  
-
-  
-
-  
-
-  
-
-  </ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-sm-6 clearfix">
   <img src="/images/teampic/cate.jpeg" class="img-responsive" width="25%" style="float: left" />
   <h4>Dr. Cate Anst<span>&#246;</span>ter</h4>
   <i>Postdoc, started Jan 2020<br>email: <csanstoter@gmail.com></i>
@@ -119,15 +88,11 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -154,11 +119,15 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
+</div>
 
 
 
 
 
+
+
+<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -185,15 +154,11 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -221,11 +186,15 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
+</div>
 
 
 
 
 
+
+
+<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -236,6 +205,37 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
   
   <li> Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Pune, India (2019) </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6 clearfix">
+  <img src="/images/teampic/person.gif" class="img-responsive" width="25%" style="float: left" />
+  <h4>Griffin O<span>&#39;</span>Neill</h4>
+  <i>Undergraduate researcher, started 2021<br>email: <griffin.oneill@temple.edu></i>
+  <ul style="overflow: hidden">
+
+  
+  <li> Undergrad at Temple University, Philadelphia, USA </li>
   
 
   
@@ -264,9 +264,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/nathan.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Nathan Mackouse</h4>
-  <i>Started 2020<br>email: <nmackouse@temple.edu></i>
+  <img src="/images/teampic/person.gif" class="img-responsive" width="25%" style="float: left" />
+  <h4>Nicholas Baker</h4>
+  <i>Undergraduate researcher, started 2021<br>email: <nicholas.baker0001@temple.edu></i>
   <ul style="overflow: hidden">
 
   
@@ -292,38 +292,7 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-
-
-<div class="col-sm-6 clearfix">
-  <img src="/images/teampic/khai.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Khai Nguyen</h4>
-  <i>Started 2020<br>email: <khainguyen@temple.edu></i>
-  <ul style="overflow: hidden">
-
-  
-  <li> Undergrad at Temple University, Philadelphia, USA </li>
-  
-
-  
-
-  
-
-  
-
-  
-
-  </ul>
 </div>
-
-
-
-
-</div>
-
-
-
-
-
 
 
 
@@ -456,7 +425,11 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 <div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>
 
-Camilo Zuluaga
+Khai Nguyen
+
+Nathan Mackouse
+
+Camilo Zuluaga (currently a graduate student at Boston University)
 
 Drew Behrendt (currently a graduate student at Univ. of Pennsylvania)
 

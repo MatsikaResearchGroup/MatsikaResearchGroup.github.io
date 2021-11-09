@@ -59,9 +59,16 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 <p> &nbsp; </p>
 
-## Philadelphia
+### Undergraduate research program poster presentation (CST) 2021
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/phillycollage.jpg" width="60%" >
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urpposterpres.png" width="50%">
+</figure>
+
+### Mushir's visit to Park City, Utah 
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/utah.jpg" width="30%">
+<figcaption> <a href="https://utahworkshop2019.com/index.htm">The Utah Workshop on Quantum Methods in Molecular and Solid-State Theory, September 22-27, 2019</a>
+</figcaption>
 </figure>
 
 ### Pratip's visit to Troms<span>&#248;</span>, Norway 
@@ -71,11 +78,9 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 </figcaption>
 </figure>
 
-### Mushir's visit to Park City, Utah 
+## Philadelphia
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/utah.jpg" width="30%">
-<figcaption> <a href="https://utahworkshop2019.com/index.htm">The Utah Workshop on Quantum Methods in Molecular and Solid-State Theory, September 22-27, 2019</a>
-</figcaption>
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/phillycollage.jpg" width="60%" >
 </figure>
 
 <!--## Cornell

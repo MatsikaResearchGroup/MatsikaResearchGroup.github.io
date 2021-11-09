@@ -1,10 +1,3 @@
-- name: Dr. Vince Spata
-  photo: vince.png
-  info: Postdoc, started March 2020
-  email: vspata27@gmail.com
-  number_educ: 1
-  education1: Ph.D in Physical Chemistry, Temple University, Philadelphia, USA (2016)
-
 - name: Dr. Cate Anst<span>&#246;</span>ter
   photo: cate.jpeg
   info: Postdoc, started Jan 2020
@@ -41,17 +34,17 @@
   number_educ: 1
   education1: Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Pune, India (2019)
 
-- name: Nathan Mackouse
-  photo: nathan.jpg
-  info: Started 2020
-  email: nmackouse@temple.edu
+- name: Griffin O<span>&#39;</span>Neill
+  photo: person.gif
+  info: Undergraduate researcher, started 2021
+  email: griffin.oneill@temple.edu
   number_educ: 1
   education1: Undergrad at Temple University, Philadelphia, USA
 
-- name: Khai Nguyen
-  photo: khai.jpg
-  info: Started 2020
-  email: khainguyen@temple.edu
+- name: Nicholas Baker
+  photo: person.gif
+  info: Undergraduate researcher, started 2021
+  email: nicholas.baker0001@temple.edu
   number_educ: 1
   education1: Undergrad at Temple University, Philadelphia, USA
 
