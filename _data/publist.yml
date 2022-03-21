@@ -1,10 +1,20 @@
+- title: "Projected Complex Absorbing Potential Multi-Reference Configuration Interaction for Shape and Feshbach Resonances"
+  image: 
+  description: 
+  authors: M Thodika and S Matsika
+  link:
+    url:
+    display:  J. Chem. Theory Comput. <i>submitted</i> (2021)
+  highlight: 0
+  news2:
+
 - title: "A unique QP-partitioning and Siegert width using real-valued continuum remover potential"
   image: 
   description: 
-  authors: Y Sajeev, M Thodika and S. Matsika
+  authors: Y Sajeev, M Thodika and S Matsika
   link:
     url:
-    display:  J. Chem. Theory Comput. <i>(submitted)</i>
+    display:  J. Chem. Theory Comput. <i>submitted</i> (2021)
   highlight: 0
   news2:
 
@@ -74,7 +84,7 @@
   authors: Pratip Chakraborty, Yusong Liu, Thomas Weinacht and Spiridoula Matsika
   link:
     url: https://doi.org/10.1039/D0FD00110D
-    display:  Faraday Discuss. <i>accepted</i> (2020)
+    display:  Faraday Discuss., 228, 226 (2020)
   highlight: 0
   news2:
 

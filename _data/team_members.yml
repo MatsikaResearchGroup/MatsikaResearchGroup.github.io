@@ -1,10 +1,3 @@
-- name: Dr. Cate Anst<span>&#246;</span>ter
-  photo: cate.jpeg
-  info: Postdoc, started Jan 2020
-  email: csanstoter@gmail.com
-  number_educ: 1
-  education1: Ph.D in Physical Chemistry, Durham University, UK (2019)
-
 - name: Mushir ul Hasan
   photo: mushir.jpeg
   info: PhD Student, started Aug 2017
@@ -34,12 +27,12 @@
   number_educ: 1
   education1: Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Pune, India (2019)
 
-- name: Griffin O<span>&#39;</span>Neill
-  photo: griffin.jpg
-  info: Undergraduate researcher, started 2021
-  email: griffin.oneill@temple.edu
+- name: Dakshitha Abeygunewardane
+  photo: person.gif
+  info: PhD Student, started Aug 2021
+  email: dma@temple.edu
   number_educ: 1
-  education1: Undergrad at Temple University, Philadelphia, USA
+  education1: B.Sc. Honors in Chemistry from University of Peradeniya, Sri Lanka (2020)
 
 - name: Nicholas Baker
   photo: nick.jpg
@@ -48,3 +41,9 @@
   number_educ: 1
   education1: Undergrad at Temple University, Philadelphia, USA
 
+- name: Jordan Howe
+  photo: person.gif
+  info: Undergraduate researcher, started 2022
+  email: jordan.howe@temple.edu
+  number_educ: 1
+  education1: Undergrad at Temple University, Philadelphia, USA

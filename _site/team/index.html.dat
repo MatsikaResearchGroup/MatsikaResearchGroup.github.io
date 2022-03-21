@@ -65,37 +65,6 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/cate.jpeg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Dr. Cate Anst<span>&#246;</span>ter</h4>
-  <i>Postdoc, started Jan 2020<br>email: <csanstoter@gmail.com></i>
-  <ul style="overflow: hidden">
-
-  
-  <li> Ph.D in Physical Chemistry, Durham University, UK (2019) </li>
-  
-
-  
-
-  
-
-  
-
-  
-
-  </ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-sm-6 clearfix">
   <img src="/images/teampic/mushir.jpeg" class="img-responsive" width="25%" style="float: left" />
   <h4>Mushir ul Hasan</h4>
   <i>PhD Student, started Aug 2017<br>email: <mushir@temple.edu></i>
@@ -119,15 +88,11 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -154,11 +119,15 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
+</div>
 
 
 
 
 
+
+
+<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -186,15 +155,11 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
-</div>
 
 
 
 
 
-
-
-<div class="row">
 
 
 <div class="col-sm-6 clearfix">
@@ -221,6 +186,41 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 
+</div>
+
+
+
+
+
+
+
+<div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="/images/teampic/person.gif" class="img-responsive" width="25%" style="float: left" />
+  <h4>Dakshitha Abeygunewardane</h4>
+  <i>PhD Student, started Aug 2021<br>email: <dma@temple.edu></i>
+  <ul style="overflow: hidden">
+
+  
+  <li> B.Sc. Honors in Chemistry from University of Peradeniya, Sri Lanka (2020) </li>
+  
+
+  
+
+  
+
+  
+
+  
+
+  </ul>
+</div>
+
+
+
+
 
 
 
@@ -229,9 +229,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/griffin.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Griffin O<span>&#39;</span>Neill</h4>
-  <i>Undergraduate researcher, started 2021<br>email: <griffin.oneill@temple.edu></i>
+  <img src="/images/teampic/nick.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Nicholas Baker</h4>
+  <i>Undergraduate researcher, started 2021<br>email: <nicholas.baker0001@temple.edu></i>
   <ul style="overflow: hidden">
 
   
@@ -264,9 +264,9 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 
 <div class="col-sm-6 clearfix">
-  <img src="/images/teampic/nick.jpg" class="img-responsive" width="25%" style="float: left" />
-  <h4>Nicholas Baker</h4>
-  <i>Undergraduate researcher, started 2021<br>email: <nicholas.baker0001@temple.edu></i>
+  <img src="/images/teampic/person.gif" class="img-responsive" width="25%" style="float: left" />
+  <h4>Jordan Howe</h4>
+  <i>Undergraduate researcher, started 2022<br>email: <jordan.howe@temple.edu></i>
   <ul style="overflow: hidden">
 
   
@@ -424,6 +424,8 @@ Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-stu
 
 <div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>
+
+Griffin O<span>&#39;</span>Neill
 
 Khai Nguyen
 
