@@ -9,13 +9,13 @@
   news2:
 
 - title: "A unique QP-partitioning and Siegert width using real-valued continuum remover potential"
-  image: 
-  description: 
+  image: jctc_mushir.jpeg
+  description: A simple, practical quantum chemical procedure is presented for computing the energy position and the decay width of autoionization resonances. It combines the L<sup>2</sup>-stabilized resonance wave function obtained using the real-valued continuum-remover (CR) potential [Y. Sajeev <i>Chem. Phys. Lett.</i> <b>2013</b>, 587, 105–112] and the Feshbach projection operator (FPO) partitioning technique. Unlike the conventional FPO partitioning of the total wave function into its resonant <i>Q</i> space and background <i>P</i> space components, an explicit partitioning of the total wave function into its interaction region and noninteraction region components is obtained with the help of real-valued continuum-remover potential. The molecular system is initially confined inside a CR potential which removes the electronic continuum of the molecular system in which its resonance state is embedded and, thus, unravels the <i>Q</i> space component of the resonance wave function as a bound, localized eigenstate of the confined system. The eigenfunctions of the molecular Hamiltonian represented in the {1-<i>Q</i>} space constitute a complementary, <i>P</i> orthogonal space. A unique <i>QP</i> partition is obtained when the level-shift of the <i>Q</i> space function due to its coupling with the <i>P</i> space is zero, and the resonance width is computed using these unique partitioned spaces.
   authors: Y Sajeev, M Thodika and S Matsika
   link:
-    url:
-    display:  J. Chem. Theory Comput. <i>submitted</i> (2021)
-  highlight: 0
+    url: https://doi.org/10.1021/acs.jctc.1c01096
+    display:  J. Chem. Theory Comput. <i>accepted</i> (2021)
+  highlight: 1
   news2:
 
 - title: "Accurate Modeling of Excitonic Coupling in Cyanine Dye Cy3"
