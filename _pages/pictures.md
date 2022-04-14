@@ -11,12 +11,12 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 ## Temple
 
-#### Current Group: Fall 2021
+#### Current Group: Spring 2022
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/3iKvUMv1h5A" frameborder="0" allowfullscreen></iframe>-->
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/groupF2021edit.jpg" width="60%" class="imagesize img-responsive center-block" />
-  <figcaption> (from left to right) Vaibhav, Griffin, Cate, Spiridoula, Mohammed, Nick, Salsabil, Mushir.
+  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_S22.jpg" width="60%" class="imagesize img-responsive center-block" />
+  <figcaption> (from left to right) Spiridoula, Jordan, Nick, Mohammed, Vaibhav, Dakshitha, Mushir and Salsabil.
   </figcaption>
 </figure>
 
