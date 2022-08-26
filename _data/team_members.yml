@@ -34,16 +34,16 @@
   number_educ: 1
   education1: B.Sc. Honors in Chemistry from University of Peradeniya, Sri Lanka (2020)
 
-- name: Nicholas Baker
-  photo: nick.jpg
-  info: Undergraduate researcher, started 2021
-  email: nicholas.baker0001@temple.edu
-  number_educ: 1
-  education1: Undergrad at Temple University, Philadelphia, USA
-
 - name: Jordan Howe
   photo: person.gif
   info: Undergraduate researcher, started 2022
   email: jordan.howe@temple.edu
+  number_educ: 1
+  education1: Undergrad at Temple University, Philadelphia, USA
+
+- name: Christian Mobo
+  photo: person.gif
+  info: Undergraduate researcher, started 2022
+  email: christian.mobo@temple.edu
   number_educ: 1
   education1: Undergrad at Temple University, Philadelphia, USA
