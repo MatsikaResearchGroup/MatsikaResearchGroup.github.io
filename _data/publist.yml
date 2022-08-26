@@ -216,7 +216,7 @@ Chemistry"
   link:
     url: https://pubs.rsc.org/en/content/articlelanding/2019/fd/c8fd00184g#!divAbstract
     display:  Faraday Discussions, 216, 507-519 (2018)
-  highlight: 1
+  highlight: 0
   news2:
 
 - title: "Intersystem crossing in the exit channel" 
@@ -288,7 +288,7 @@ Chemistry"
   link:
     url: https://pubs.acs.org/doi/10.1021/acs.jpca.8b01523
     display:  J. Phys. Chem. A, 122, 4048-4057, (2018)
-  highlight: 1
+  highlight: 0
   news2:
 
 - title: "Quadruple coincidence measurement of electron correlation in strong field molecular double ionization"
