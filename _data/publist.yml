@@ -9,13 +9,13 @@
   news2:
 
 - title: "Modeling the Electronic Absorption Spectra of the Indocarbocyanine Cy3"
-  image: 
-  description: 
+  image: mohd_molecules.png
+  description: "Accurate modeling of optical spectra requires careful treatment of the molecular structures and vibronic, environmental, and thermal contributions. The accuracy of the computational methods used to simulate absorption spectra is limited by their ability to account for all the factors that affect the spectral shapes and energetics. The ensemble-based approaches are widely used to model the absorption spectra of molecules in the condensed-phase, and their performance is system dependent. The Franck–Condon approach is suitable for simulating high resolution spectra of rigid systems, and its accuracy is limited mainly by the harmonic approximation. In this work, the absorption spectrum of the widely used cyanine Cy3 is simulated using the ensemble approach via classical and quantum sampling, as well as, the Franck–Condon approach. The factors limiting the ensemble approaches, including the sampling and force field effects, are tested, while the vertical and adiabatic harmonic approximations of the Franck–Condon approach are also systematically examined. Our results show that all the vertical methods, including the ensemble approach, are not suitable to model the absorption spectrum of Cy3, and recommend the adiabatic methods as suitable approaches for the modeling of spectra with strong vibronic contributions. We find that the thermal effects, the low frequency modes, and the simultaneous vibrational excitations have prominent contributions to the Cy3 spectrum. The inclusion of the solvent stabilizes the energetics significantly, while its negligible effect on the spectral shapes aligns well with the experimental observations."
   authors: MI Sorour, AH Marcus and S Matsika
   link:
     url: https://www.mdpi.com/1420-3049/27/13/4062
     display:  Molecules, 27, 4062 (2022)
-  highlight: 0
+  highlight: 1
   news2:
 
 - title: "Conformer-Specific Dissociation Dynamics in Dimethyl Methylphosphonate Radical Cation "
