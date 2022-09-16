@@ -1,10 +1,20 @@
+- title: "Nonadiabatic Excited State Dynamics of Organic Chromophores&#58; Take-Home Messages"
+  image:
+  description:
+  authors: P. Chakraborty, Y. Liu, S. McClung, T. Weinacht and S Matsika
+  link:
+    url: https://pubs.acs.org/doi/10.1021/acs.jpca.2c04671
+    display:  J. Phys. Chem. A, 126, 6021-6031 (2022)
+  highlight: 0
+  news2:
+
 - title: "Stable excited dication: trapping on the S<sub>1</sub> state of formaldehyde dication after strong field ionization"
   image: Get.gif
   description: "Combined theoretical and experimental work examines the dynamics of dication formaldehyde produced by strong field ionization. Trajectory surface hopping dynamics on the first several singlet electronic states of the formaldehyde dication are used to examine the relaxation pathways and dissociation channels, while kinetic energy distributions after strong field ionization of formaldehyde and deuterated formaldehyde are used to confirm the theoretical predictions. We find that the first excited state of the formaldehyde dication is stable, neither decays to the ground state nor dissociates, even though the ground state and higher lying states are directly dissociative. The stability of the first excited state is explained by its symmetry which does not allow for radiative or nonradiative transitions to the ground state and by large barriers to dissociate on the excited state surface." 
   authors: V. Singh, C. Cheng, T. Weinacht and S Matsika
   link:
     url: https://doi.org/10.1039/D2CP02604J
-    display:  Phys. Chem. Chem. Phys., <i>accepted</i> (2022)
+    display:  Phys. Chem. Chem. Phys., 24, 20701-20708 (2022)
   highlight: 1
   news2:
 
