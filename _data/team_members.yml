@@ -1,16 +1,9 @@
-- name: Mushir ul Hasan
-  photo: mushir.jpeg
-  info: PhD Student, started Aug 2017
-  email: mushir@temple.edu
+- name: Dr. Divya Tripathi
+  photo: person.gif
+  info: Post Doc, started Jan 2023
+  email: divya.tripathi@temple.edu
   number_educ: 1
-  education1: Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Mohali, India (2017)
-
-- name: Salsabil Abou-Hatab
-  photo: salsa.jpg
-  info: PhD Student, started Aug 2017
-  email: salsa.abouhatab@temple.edu
-  number_educ: 1
-  education1: Bachelors in Chemistry, Temple University, Philadelphia, USA (2016)
+  education1: PhD in Computational Chemistry, Indian Institute of Technology (IIT) Bombay, India (2022)
 
 - name: Mohammed Sorour
   photo: sorour.jpg
@@ -34,6 +27,13 @@
   number_educ: 1
   education1: B.Sc. Honors in Chemistry from University of Peradeniya, Sri Lanka (2020)
 
+- name: Maneesh Pyla
+  photo: person.gif
+  info: PhD Student, started Aug 2022
+  email: maneesh.pyla@temple.edu
+  number_educ: 1
+  education1: Integrated BS-MS in Chemistry from Indian Institute of Science Education and Research (IISER) Tirupati, India (2022)
+
 - name: Jordan Howe
   photo: person.gif
   info: Undergraduate researcher, started 2022
@@ -54,3 +54,12 @@
   email: carson.baker@temple.edu
   number_educ: 1
   education1: Undergrad at Temple University, Philadelphia, USA
+
+- name: Sabrina Murodova
+  photo: person.gif
+  info: Undergraduate researcher, started 2023
+  email: tum91581@temple.edu
+  number_educ: 1
+  education1: Undergrad at Temple University, Philadelphia, USA
+
+
