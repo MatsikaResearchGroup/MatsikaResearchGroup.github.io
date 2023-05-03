@@ -12,6 +12,9 @@ We are always looking for new group members with passion, talent, and grit!
 
 You will have the chance to work on stimulating problems in 'Theoretical and Computational Chemistry'!!
 
+<b> Current open positions </b>
+[Opening 1]({{ site.baseurl }}/downloads/Postdoctoral_position_available2023.docx)
+
 <!--### Current open positions
 
 You find the current job openings here:
