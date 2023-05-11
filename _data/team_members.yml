@@ -1,5 +1,5 @@
 - name: Dr. Divya Tripathi
-  photo: person.gif
+  photo: divya.jpg
   info: Post Doc, started Jan 2023
   email: divya.tripathi@temple.edu
   number_educ: 1
@@ -49,14 +49,14 @@
   education1: Undergrad at Temple University, Philadelphia, USA
 
 - name: Carson Baker
-  photo: person.gif
+  photo: carson.jpg
   info: Undergraduate researcher, started 2022
   email: carson.baker@temple.edu
   number_educ: 1
   education1: Undergrad at Temple University, Philadelphia, USA
 
 - name: Sabrina Murodova
-  photo: person.gif
+  photo: sabrina.jpeg
   info: Undergraduate researcher, started 2023
   email: tum91581@temple.edu
   number_educ: 1
