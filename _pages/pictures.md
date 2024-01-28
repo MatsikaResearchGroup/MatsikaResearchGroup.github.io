@@ -15,8 +15,8 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/3iKvUMv1h5A" frameborder="0" allowfullscreen></iframe>-->
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_S22.jpg" width="60%" class="imagesize img-responsive center-block" />
-  <figcaption> (from left to right) Spiridoula, Jordan, Nick, Mohammed, Vaibhav, Dakshitha, Mushir and Salsabil.
+  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_f23.jpg" width="60%" class="imagesize img-responsive center-block" />
+  <figcaption> (from left to right) Juan, Maneesh, Dakshitha, Matsika,  Vaibhav, Sabrina, Mohammed, Divya, Carson and Jose.
   </figcaption>
 </figure>
 
@@ -58,6 +58,23 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 {% endif %}
 
 <p> &nbsp; </p>
+
+### Mohammed's thesis defense 2023
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg" width="40%">
+</figure>
+
+###Undergraduate research program poster presentation (CST) 2023
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg" width="40%">
+</figure>
+
+### Vaibhav's visit to Spokane, WA 2023
+<figure>
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/spokane.jpeg" width="40%">
+<figcaption> <a href="https://aps.org/meetings/meeting.cfm?name=DAMOP23">The APS DAMOP Conference, June 5-9, 2023</a>
+</figcaption>
+</figure>
 
 ### Undergraduate research program poster presentation (CST) 2021
 <figure>

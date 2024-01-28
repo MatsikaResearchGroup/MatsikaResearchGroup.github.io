@@ -1,10 +1,52 @@
+- title: "Quantum Contributions to Coulomb Explosion Imaging"
+  image:
+  description:
+  authors: V. Singh, C. Cheng, T. Weinacht, S. Matsika
+  link:
+    url: 
+    display: Phys. Rev. Lett., (Submitted, 2024)
+  highlight: 0
+  news2:
+
+- title: "Ultrafast structural dynamics of UV photoexcited cis,cis-1,3- cyclooctadiene observed with
+femtosecond electron diffraction"
+  image:
+  description:
+  authors: S.B. Muvval, Y. Liu, P. Chakraborty, T. Weinacht, S. Matsika, M. Centurion and et. al.
+  link:
+    url: 
+    display: Nature Chem., (Submitted, 2023)
+  highlight: 0
+  news2:
+
+- title: "Excited State Hydrogen or Proton Transfer Pathways in microsolvated n-cyanoindole fluorescent probes"
+  image:
+  description:
+  authors: S. Abou-Hatab and S. Matsika
+  link:
+    url: https://doi.org/10.1039/D3CP04844F
+    display: Phys. Chem. Chem. Phys. (Accepted, 2024)
+  highlight: 0
+  news2:
+
+- title: "Unravelling the Origin of the Vibronic Spectral Signatures in an Excitonically Coupled
+Indocarbocyanine Cy3 Dimer"
+  image:
+  description:
+  authors: M. Sorour, M. Andrew, S. Matsika
+  link:
+    url: https://doi.org/10.1021/acs.jpca.3c06090
+    display: J. Phys. Chem. A., 127, 9530-9540 (2023)
+  highlight: 0
+  news2:
+
 - title: "Using transition density models to interpret experimental optical spectra of exciton-coupled cyanine (iCy3)2 dimer probes of local DNA conformations at or near functional protein binding sites"
   image:
   description:
   authors: D. Heussman, L. Enkhbaatar, M. Sorour, K. Kistler, P. von Hippel, S. Matsika and A. Marcus
   link:
-    url: 
-    display: Nucleic Acids Research (Submitted, 2023)
+    url: https://doi.org/10.1093/nar/gkad1163
+    display: Nucleic Acids Research (Accepted, 2023)
   highlight: 0
   news2:
 

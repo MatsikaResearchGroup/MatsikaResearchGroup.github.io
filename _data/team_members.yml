@@ -1,3 +1,10 @@
+- name: Dr. Juan Carlos San Vicente Veliz
+  photo: juan.jpg
+  info: Post Doc, started August 2023
+  email: j.sanvicente@temple.edu
+  number_educ: 1
+  education1: PhD in Computational Chemistry, University of Basel, Switzerland (2023)
+
 - name: Dr. Divya Tripathi
   photo: divya.jpg
   info: Post Doc, started Jan 2023
@@ -7,7 +14,7 @@
 
 - name: Mohammed Sorour
   photo: sorour.jpg
-  info: PhD Student, started Aug 2018
+  info: PhD Graduate, 2018-2023
   email: Mohammed.Sorour@temple.edu
   number_educ: 2
   education1: Bachelors in Pharmaceutical Sciences, Misr University of Science and Technology, Egypt (2011)
@@ -41,13 +48,6 @@
   number_educ: 1
   education1: Undergrad at Temple University, Philadelphia, USA
 
-- name: Christian Mobo
-  photo: person.gif
-  info: Undergraduate researcher, started 2022
-  email: christian.mobo@temple.edu
-  number_educ: 1
-  education1: Undergrad at Temple University, Philadelphia, USA
-
 - name: Carson Baker
   photo: carson.jpg
   info: Undergraduate researcher, started 2022
@@ -58,8 +58,16 @@
 - name: Sabrina Murodova
   photo: sabrina.jpeg
   info: Undergraduate researcher, started 2023
-  email: tum91581@temple.edu
+  email: sabrina.murodova@temple.edu
   number_educ: 1
   education1: Undergrad at Temple University, Philadelphia, USA
+
+- name: Jose F Mendez-Guerra
+  photo: person.gif
+  info: Undergraduate researcher, started 2023
+  email: jose.mendez-guerra@temple.edu
+  number_educ: 1
+  education1: Undergrad at Temple University, Philadelphia, USA
+
 
 
