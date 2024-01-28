@@ -70,4 +70,3 @@ Most chemical processes follow the Born-Oppenheimer (adiabatic) approximation, i
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsf.jpg" style="width: 160px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/doe.gif" style="width: 150px">
 </figure>
-
