@@ -64,7 +64,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg" width="40%">
 </figure>
 
-###Undergraduate research program poster presentation (CST) 2023
+### Undergraduate research program poster presentation (CST) 2023
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg" width="40%">
 </figure>
