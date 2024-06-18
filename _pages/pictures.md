@@ -11,7 +11,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 ## Temple
 
-#### Current Group: Spring 2022
+#### Current Group: Fall 2023
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/3iKvUMv1h5A" frameborder="0" allowfullscreen></iframe>-->
 
 <figure>
@@ -69,7 +69,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg" width="40%">
 </figure>
 
-### Vaibhav's visit to Spokane, WA 2023
+### Vaibhav and Daksh visit to Spokane, WA 2023
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/spokane.jpeg" width="40%">
 <figcaption> <a href="https://aps.org/meetings/meeting.cfm?name=DAMOP23">The APS DAMOP Conference, June 5-9, 2023</a>

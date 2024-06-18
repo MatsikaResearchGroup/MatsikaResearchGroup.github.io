@@ -1,10 +1,20 @@
+- title: "Time-resolved photoelectron spectroscopy via trajectory surface hopping"
+  image:
+  description:
+  authors: P. Chakraborty, S. Matsika
+  link:
+    url: https://doi.org/10.1002/wcms.1715
+    display: Wiley Interdisciplinary Reviews, 14 (3), e1715 (2024)
+  highlight: 0
+  news2:
+
 - title: "Quantum Contributions to Coulomb Explosion Imaging"
   image:
   description:
   authors: V. Singh, C. Cheng, T. Weinacht, S. Matsika
   link:
-    url: 
-    display: Phys. Rev. Lett., (Submitted, 2024)
+    url: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.052813 
+    display: Phys. Rev. A, 109 (5), 052813 (2024)
   highlight: 0
   news2:
 
@@ -25,7 +35,17 @@ femtosecond electron diffraction"
   authors: S. Abou-Hatab and S. Matsika
   link:
     url: https://doi.org/10.1039/D3CP04844F
-    display: Phys. Chem. Chem. Phys. (Accepted, 2024)
+    display: Phys. Chem. Chem. Phys., 26, 4511-4523 (2024)
+  highlight: 0
+  news2:
+
+- title: "Using transition density models to interpret experimental optical spectra of exciton-coupled cyanine (iCy3)2 dimer probes of local DNA conformations at or near functional protein binding sites"
+  image:
+  description:
+  authors: D. Heussman, L. Enkhbaatar, M. Sorour, K. Kistler, P. von Hippel, S. Matsika and A. Marcus
+  link:
+    url: https://doi.org/10.1093/nar/gkad1163
+    display: Nucleic Acids Research, 52, 1272-1289 (2024)
   highlight: 0
   news2:
 
@@ -37,16 +57,6 @@ Indocarbocyanine Cy3 Dimer"
   link:
     url: https://doi.org/10.1021/acs.jpca.3c06090
     display: J. Phys. Chem. A., 127, 9530-9540 (2023)
-  highlight: 0
-  news2:
-
-- title: "Using transition density models to interpret experimental optical spectra of exciton-coupled cyanine (iCy3)2 dimer probes of local DNA conformations at or near functional protein binding sites"
-  image:
-  description:
-  authors: D. Heussman, L. Enkhbaatar, M. Sorour, K. Kistler, P. von Hippel, S. Matsika and A. Marcus
-  link:
-    url: https://doi.org/10.1093/nar/gkad1163
-    display: Nucleic Acids Research (Accepted, 2023)
   highlight: 0
   news2:
 
