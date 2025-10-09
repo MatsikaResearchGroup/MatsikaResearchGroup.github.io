@@ -9,13 +9,13 @@
   news2:
   
 - title: "Impact of solvation on the electronic resonances in uracil"
-  image:
-  description:
+  image: cover.png
+  description: Interactions of low-energy electrons with the DNA and RNA nucleobases are known to form metastable states, known as electronic resonances. In this work, we study electron attachment to solvated uracil, an RNA nucleobase, using the orbital stabilization method at the Equation of Motion-Coupled Cluster for Electron Affinities with Singles and Doubles (EOM-EA-CCSD) level of theory with the Effective Fragment Potential (EFP) solvation method. We benchmarked the approach using multireference methods, as well as by comparing EFP and full quantum calculations. The impact of solvation on the first one particle (1p) shape resonance, formed by electron attachment to the π* LUMO orbital, as well as the first two particle one hole (2p1h) resonance, formed by electron attachment to neutral uracil's π–π* excited state, was investigated. We used molecular dynamics simulations for solvent configurations and applied charge stabilization technique-based biased sampling to procure configurations adequate to cover the entire range of the electron attachment energy distribution. The electron attachment energy in solution is found to be distributed over a wide range of energies, between 4.6 eV to 6.8 eV for the 2p1h resonance, and between −0.1 eV to 2 eV for the 1p resonance. The solvent effects were similar for the two resonances, indicating that the exact electron density of the state is not as important as the solvent configurations. Multireference calculations extended the findings showing that solvation effects are similar for the lowest four resonances, further indicating that the specific solute electron density is not as important, but rather the water configurations play the most important role in solvation effects. Finally, by comparing bulk solvation to clusters of uracil with a few water molecules around it, we find that the impact of microsolvation is very different from that of bulk solvation.
   authors: D. Tripathi, M. Pyla, A.K. Dutta, S. Matsika
   link:
     url: https://doi.org/10.1039/D4CP04333B
     display: Phys. Chem. Chem. Phys., 2025,27, 3588-3601
-  highlight: 0
+  highlight: 1
   news2:
   
 - title: "Exploring electronic resonances in pyridine: Insights from orbital stabilization techniques"
