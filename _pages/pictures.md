@@ -15,7 +15,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/3iKvUMv1h5A" frameborder="0" allowfullscreen></iframe>-->
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/group_f23.jpg" width="60%" class="imagesize img-responsive center-block" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/gp.jpg" width="60%" class="imagesize img-responsive center-block" />
   <figcaption> (from left to right) Juan, Maneesh, Dakshitha, Matsika,  Vaibhav, Sabrina, Mohammed, Divya, Carson and Jose.
   </figcaption>
 </figure>
