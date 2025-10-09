@@ -25,7 +25,7 @@ We are a theoretical research group at the [Temple University Dept of Chemistry]
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jacs.gif" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cateuracilsolv.gif" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cover.png" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/salsamodabs.jpg" alt="Slide 3" />
