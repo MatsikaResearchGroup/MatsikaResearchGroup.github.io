@@ -61,7 +61,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 ### Mohammed's thesis defense 2023
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.heic" width="40%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg" width="40%">
 </figure>
 
 ### Undergraduate research program poster presentation (CST) 2023
