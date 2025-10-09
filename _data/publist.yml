@@ -19,7 +19,7 @@
   news2:
   
 - title: "Exploring electronic resonances in pyridine: Insights from orbital stabilization techniques"
-  image: MO.png
+  image: energy.png
   description: Electron attachment to pyridine results in electronic resonances, metastable states that can decay through electronic or nuclear degrees of freedom. This study uses orbital stabilization techniques combined with bound electronic structure methods, based on equation of motion coupled cluster or multi-reference methods, to calculate positions and widths of electronic resonances in pyridine that exist below 10 eV. We report four 2B1 and four 2A2 resonances, including one 2B1 not previously reported experimentally and two 2A2 resonances not reported at all in the literature. The two lower energy resonances are one-particle shape resonances, while the remaining are mixed or primarily core-excited resonances. Multi-reference perturbation theory provides the best description of these resonances, especially when their character is mixed. We describe the character of these resonances qualitatively and calculate Dyson orbitals, which provide information about their decay channels.
   authors: M. Pyla, S. Matsika
   link:
