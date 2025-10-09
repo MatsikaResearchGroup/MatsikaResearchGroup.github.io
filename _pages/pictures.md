@@ -16,8 +16,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/gp.jpg" width="60%" class="imagesize img-responsive center-block" />
-  <figcaption> (from left) Spiridoula, Trevor, Mohammed, Vaibhav
-    (from to right) Kanishka, Juan, Sabrina, Maneesh, Dakshitha.
+  <figcaption> (from left to right) Spiridoula, Trevor, Mohammed, Vaibhav, Kanishka, Juan, Sabrina, Maneesh, Dakshitha.
   </figcaption>
 </figure>
 
