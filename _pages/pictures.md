@@ -59,9 +59,9 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 <p> &nbsp; </p>
 
-#### Maneesh and Dakshitha attended 64th Sanibel symposium
+### Maneesh and Dakshitha attended 64th Sanibel symposium at St. Augustine Beach, Florida
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel1.jpeg" width="40%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel1.jpg" width="40%">
 </figure>
 
 ### Mohammed's thesis defense 2023
