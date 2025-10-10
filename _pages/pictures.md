@@ -66,6 +66,15 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
   <tr>
     <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/MolEx.png"
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px;
+                    box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">Mohammed's thesis defense 2023</div>
+      </div>
+    </td>
+    
+    <td style="width:33%; padding:8px; vertical-align:top;">
+      <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel.png"
              style="width:90%; height:200px; object-fit:cover; border-radius:6px;
                     box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
@@ -82,8 +91,11 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
                     box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
         <div style="font-size:0.85em; color:#333;">Mohammed's thesis defense 2023</div>
       </div>
-    </td>
+    </td>    
+  </tr>
 
+  <!-- Second row: 3 images -->
+  <tr>
     <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg"
@@ -94,10 +106,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
         </div>
       </div>
     </td>
-  </tr>
-
-  <!-- Second row: 2 images (centered by leaving one empty cell) -->
-  <tr>
+    
     <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/spokane.jpeg"
@@ -119,13 +128,9 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
         </div>
       </div>
     </td>
-
-    <!-- Empty cell to center the two images -->
-    <td style="width:33%; padding:8px;"></td>
   </tr>
-</table>
 
-
+<!-- Second row: 3 images -->
   <tr>
      <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
