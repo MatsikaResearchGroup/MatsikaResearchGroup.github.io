@@ -203,6 +203,13 @@ permalink: /team/
 {% endfor %}
 </div>
 
+<div class="col-sm-4 clearfix">
+<h4>Highschool Students</h4>
+{% for member in site.data.alumni_bsc %}
+{{ member.name }}
+{% endfor %}
+</div>
+
 </div>
 
 
