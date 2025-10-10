@@ -182,28 +182,28 @@ permalink: /team/
 ## Former members
 <div class="row">
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-3 clearfix">
 <h4>Postdoctoral Fellows</h4>
 {% for member in site.data.alumni_postdocs %}
 {{ member.name }}
 {% endfor %}
 </div>
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-3 clearfix">
 <h4>Graduate students</h4>
 {% for member in site.data.alumni_grad %}
 {{ member.name }}
 {% endfor %}
 </div>
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-3 clearfix">
 <h4>Bachelor Students</h4>
 {% for member in site.data.alumni_bsc %}
 {{ member.name }}
 {% endfor %}
 </div>
 
-<div class="col-sm-4 clearfix">
+<div class="col-sm-3 clearfix">
 <h4>Highschool Students</h4>
 {% for member in site.data.alumni_highschool %}
 {{ member.name }}
