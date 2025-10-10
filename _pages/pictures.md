@@ -61,19 +61,25 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 ### Other Pictures
 <table style="width:100%; text-align:center; border-collapse:collapse;">
+
+  <!-- First row: 3 images -->
   <tr>
     <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel.png"
-             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
-        <div style="font-size:0.85em; color:#333;">Maneesh and Dakshitha attended 64th Sanibel Symposium at St. Augustine Beach, Florida</div>
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px;
+                    box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">
+          Maneesh and Dakshitha attended 64th Sanibel Symposium at St. Augustine Beach, Florida
+        </div>
       </div>
     </td>
 
     <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg"
-             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px;
+                    box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
         <div style="font-size:0.85em; color:#333;">Mohammed's thesis defense 2023</div>
       </div>
     </td>
@@ -81,27 +87,44 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
     <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg"
-             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
-        <div style="font-size:0.85em; color:#333;">Undergraduate research program poster presentation (CST) 2023</div>
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px;
+                    box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">
+          Undergraduate research program poster presentation (CST) 2023
+        </div>
       </div>
     </td>
+  </tr>
 
+  <!-- Second row: 2 images (centered by leaving one empty cell) -->
+  <tr>
     <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/spokane.jpeg"
-             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
-        <div style="font-size:0.85em; color:#333;">Vaibhav and Daksh attended APS DAMOP Conference at Spokane, WA 2023</div>
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px;
+                    box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">
+          Vaibhav and Daksh attended APS DAMOP Conference at Spokane, WA 2023
+        </div>
       </div>
     </td>
 
     <td style="width:33%; padding:8px; vertical-align:top;">
       <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urpposterpres.png"
-             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
-        <div style="font-size:0.85em; color:#333;">Undergraduate research program poster presentation (CST) 2021</div>
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px;
+                    box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">
+          Undergraduate research program poster presentation (CST) 2021
+        </div>
       </div>
     </td>
+
+    <!-- Empty cell to center the two images -->
+    <td style="width:33%; padding:8px;"></td>
   </tr>
+</table>
+
 
   <tr>
      <td style="width:33%; padding:8px; vertical-align:top;">
