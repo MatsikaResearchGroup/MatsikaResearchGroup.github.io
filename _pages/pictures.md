@@ -69,7 +69,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/MolEx.png"
              style="width:90%; height:200px; object-fit:cover; border-radius:6px;
                     box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
-        <div style="font-size:0.85em; color:#333;">Maneesh attended Molecular Excited States Workshop(MolEx) 2025 at Toru&#324;n, Poland</div>
+        <div style="font-size:0.85em; color:#333;">Maneesh attended Molecular Excited States Workshop(MolEx) 2025 at Toru&#324;, Poland</div>
       </div>
     </td>
     
