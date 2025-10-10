@@ -64,10 +64,6 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/sanibel1.jpeg" width="40%">
 </figure>
 
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/sanibel2.jpeg" width="40%">
-</figure>
-
 ### Mohammed's thesis defense 2023
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg" width="40%">
