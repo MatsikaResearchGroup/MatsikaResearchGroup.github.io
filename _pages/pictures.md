@@ -60,22 +60,34 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 <p> &nbsp; </p>
 
 ### Other Pictures
-<table style="width:100%; text-align:center;">
-  <tr>
-    <td>
-      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel.png" width="90%"><br>
-      <small>Maneesh and Dakshitha attended 64th Sanibel symposium at St. Augustine Beach, Florida</small>
-    </td>
-    <td>
-      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg" width="90%"><br>
-      <small>Mohammed's thesis defense 2023</small>
-    </td>
-    <td>
-      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg" width="90%"><br>
-      <small>Undergraduate research program poster presentation (CST) 2023</small>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+
+  <figure style="width: 28%; text-align: center; margin: 0;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel.png"
+         style="width: 100%; height: 250px; object-fit: cover; border-radius: 6px;">
+    <figcaption style="font-size: 0.9em; margin-top: 8px;">
+      Maneesh and Dakshitha attended 64th Sanibel Symposium at St. Augustine Beach, Florida
+    </figcaption>
+  </figure>
+
+  <figure style="width: 28%; text-align: center; margin: 0;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg"
+         style="width: 100%; height: 250px; object-fit: cover; border-radius: 6px;">
+    <figcaption style="font-size: 0.9em; margin-top: 8px;">
+      Mohammed's thesis defense 2023
+    </figcaption>
+  </figure>
+
+  <figure style="width: 28%; text-align: center; margin: 0;">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg"
+         style="width: 100%; height: 250px; object-fit: cover; border-radius: 6px;">
+    <figcaption style="font-size: 0.9em; margin-top: 8px;">
+      Undergraduate research program poster presentation (CST) 2023
+    </figcaption>
+  </figure>
+
+</div>
+
 
 
 ### Vaibhav and Daksh visit to Spokane, WA 2023
