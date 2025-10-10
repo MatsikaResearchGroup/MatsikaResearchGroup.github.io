@@ -54,7 +54,27 @@
   authors: S.B. Muvval, Y. Liu, P. Chakraborty, T. Weinacht, S. Matsika, M. Centurion and et. al.
   link:
     url: https://doi.org/10.1039/D4CP02785J
+    display: Phys. Chem. Chem. Phys., 27, 471-480, (2025)
+  highlight: 0
+  news2:
+
+- title: "Modeling the Effect of Substituents on the Electronically Excited States of Indole Derivatives"
+  image: 
+  description: 
+  authors: J. Howe, S. Abou-Hatab, S. Matsika
+  link:
+    url: https://doi.org/10.1002/jcc.27502
     display: J. Comput. Chem., 46, e27502, (2025)
+  highlight: 0
+  news2:
+
+- title: "Detecting Centrosymmetric Molecular Ions at an Interface with Vibrational Sum Frequency Generation Spectroscopy"
+  image: 
+  description: 
+  authors: B. Mandal, S. Dadashi, K. Kumagai, T. Hirano, T. Ishiyama, S. Abou-Hatab, Y. Zou, S. Matsika, A. Morita, E. Borguet
+  link:
+    url: https://pubs.acs.org/doi/10.1021/acs.jpcc.4c05318
+    display: J. Phys. Chem. C, 128, 50, 21508–21517, (2024)
   highlight: 0
   news2:
   
