@@ -60,23 +60,23 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 <p> &nbsp; </p>
 
 ### Other Pictures
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel.png" width="40%">
-<figcaption> Maneesh and Dakshitha attended 64th Sanibel symposium at St. Augustine Beach, Florida
-</figcaption>  
-</figure>
+<table style="width:100%; text-align:center;">
+  <tr>
+    <td>
+      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel.png" width="90%"><br>
+      <small>Maneesh and Dakshitha attended 64th Sanibel symposium at St. Augustine Beach, Florida</small>
+    </td>
+    <td>
+      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg" width="90%"><br>
+      <small>Mohammed's thesis defense 2023</small>
+    </td>
+    <td>
+      <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg" width="90%"><br>
+      <small>Undergraduate research program poster presentation (CST) 2023</small>
+    </td>
+  </tr>
+</table>
 
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg" width="40%">
-<figcaption> Mohammed's thesis defense 2023
-</figcaption>
-</figure>
-
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg" width="40%">
-<figcaption> Undergraduate research program poster presentation (CST) 2023
-</figcaption>
-</figure>
 
 ### Vaibhav and Daksh visit to Spokane, WA 2023
 <figure>
