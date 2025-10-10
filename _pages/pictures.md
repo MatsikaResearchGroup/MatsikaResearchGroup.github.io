@@ -93,41 +93,39 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
         <div style="font-size:0.85em; color:#333;">Vaibhav and Daksh attended APS DAMOP Conference at Spokane, WA 2023</div>
       </div>
     </td>
+
+    <td style="width:33%; padding:8px; vertical-align:top;">
+      <div style="display:inline-block;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urpposterpres.png"
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">Undergraduate research program poster presentation (CST) 2021</div>
+      </div>
+    </td>
+  </tr>
+
+  <tr>
+     <td style="width:33%; padding:8px; vertical-align:top;">
+      <div style="display:inline-block;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/utah.jpg"
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">Mushir attended a workshop on Quantum Methods in Molecular and Solid-State Theory 2019 at Utah</div>
+      </div>
+    </td>
+    
+    <td style="width:33%; padding:8px; vertical-align:top;">
+      <div style="display:inline-block;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/collage-pratip.jpg"
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">Pratip attended 10th Congress of the International Society of Theoretical Chemical Physics 2019, Troms<span>&#248;</span>, Norway </div>
+      </div>
+    </td>
+
+    <td style="width:33%; padding:8px; vertical-align:top;">
+      <div style="display:inline-block;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/phillycollage.jpg"
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">Philadelphia, city of Brotherly Love</div>
+      </div>
   </tr>
 </table>
 
-### Undergraduate research program poster presentation (CST) 2021
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urpposterpres.png" width="50%">
-</figure>
-
-### Mushir's visit to Park City, Utah 
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/utah.jpg" width="30%">
-<figcaption> <a href="https://utahworkshop2019.com/index.htm">The Utah Workshop on Quantum Methods in Molecular and Solid-State Theory, September 22-27, 2019</a>
-</figcaption>
-</figure>
-
-### Pratip's visit to Troms<span>&#248;</span>, Norway 
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/collage-pratip.jpg" width="40%">
-<figcaption> <a href="http://www.istcp-2019.org/">10th Congress of the International Society of Theoretical Chemical Physics 2019</a>
-</figcaption>
-</figure>
-
-## Philadelphia
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/phillycollage.jpg" width="60%" >
-</figure>
-
-<!--## Cornell
-From the [group of Seamus JC Davis](http://davisgroup.lassp.cornell.edu).
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/WebpageCornell_red.jpg" width="60%">
-</figure>-->
-
-<!--## St Andrews
-From the [group of Felix Baumberger](http://dqmp.unige.ch/baumberger/) (now at University of Geneva).
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/WebpageSTA_red.jpg" width="60%">
-</figure>-->
