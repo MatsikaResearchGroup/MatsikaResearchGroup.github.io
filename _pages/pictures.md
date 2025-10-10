@@ -85,16 +85,16 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
         <div style="font-size:0.85em; color:#333;">Undergraduate research program poster presentation (CST) 2023</div>
       </div>
     </td>
+
+    <td style="width:33%; padding:8px; vertical-align:top;">
+      <div style="display:inline-block;">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/spokane.jpeg"
+             style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
+        <div style="font-size:0.85em; color:#333;">Vaibhav and Daksh attended APS DAMOP Conference at Spokane, WA 2023</div>
+      </div>
+    </td>
   </tr>
 </table>
-
-
-### Vaibhav and Daksh visit to Spokane, WA 2023
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/spokane.jpeg" width="40%">
-<figcaption> <a href="https://aps.org/meetings/meeting.cfm?name=DAMOP23">The APS DAMOP Conference, June 5-9, 2023</a>
-</figcaption>
-</figure>
 
 ### Undergraduate research program poster presentation (CST) 2021
 <figure>
