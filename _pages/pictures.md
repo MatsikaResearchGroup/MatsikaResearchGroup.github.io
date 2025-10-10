@@ -59,19 +59,23 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 <p> &nbsp; </p>
 
-### Maneesh and Dakshitha attended 64th Sanibel symposium at St. Augustine Beach, Florida
+### Other Pictures
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel.png" width="40%">
+<figcaption> Maneesh and Dakshitha attended 64th Sanibel symposium at St. Augustine Beach, Florida
+</figcaption>  
 </figure>
 
-### Mohammed's thesis defense 2023
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg" width="40%">
+<figcaption> Mohammed's thesis defense 2023
+</figcaption>
 </figure>
 
-### Undergraduate research program poster presentation (CST) 2023
 <figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/urp23.jpeg" width="40%">
+<figcaption> Undergraduate research program poster presentation (CST) 2023
+</figcaption>
 </figure>
 
 ### Vaibhav and Daksh visit to Spokane, WA 2023
