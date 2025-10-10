@@ -89,7 +89,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/md_diss.jpeg"
              style="width:90%; height:200px; object-fit:cover; border-radius:6px;
                     box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
-        <div style="font-size:0.85em; color:#333;">Mohammed's thesis defense 2023</div>
+        <div style="font-size:0.85em; color:#333;">Mohammed's Thesis Defense 2023</div>
       </div>
     </td>    
   </tr>
@@ -102,7 +102,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
              style="width:90%; height:200px; object-fit:cover; border-radius:6px;
                     box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
         <div style="font-size:0.85em; color:#333;">
-          Undergraduate research program poster presentation (CST) 2023
+          Undergraduate Research Program Poster Presentation (CST) 2023
         </div>
       </div>
     </td>
@@ -124,7 +124,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
              style="width:90%; height:200px; object-fit:cover; border-radius:6px;
                     box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
         <div style="font-size:0.85em; color:#333;">
-          Undergraduate research program poster presentation (CST) 2021
+          Undergraduate Research Program Poster Presentation (CST) 2021
         </div>
       </div>
     </td>
