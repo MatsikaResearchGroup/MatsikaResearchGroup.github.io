@@ -61,7 +61,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
 
 #### Maneesh and Dakshitha attended 64th Sanibel symposium
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/sanibel1.jpeg" width="40%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Sanibel1.jpeg" width="40%">
 </figure>
 
 ### Mohammed's thesis defense 2023
