@@ -152,7 +152,7 @@ Jump to: [Temple](#temple), [Philadelphia](#philadelphia)
       <div style="display:inline-block;">
         <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/phillycollage.jpg"
              style="width:90%; height:200px; object-fit:cover; border-radius:6px; box-shadow:0 2px 6px rgba(0,0,0,0.2); margin-bottom:6px;">
-        <div style="font-size:0.85em; color:#333;">Philadelphia, city of Brotherly Love</div>
+        <div style="font-size:0.85em; color:#333;">Philadelphia, City of Brotherly Love</div>
       </div>
     </td>
   </tr>
