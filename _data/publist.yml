@@ -1,12 +1,31 @@
 - title: "Partial Widths of Shape Resonances in Pyridine and Uracil Using the Stabilization Method"
-  image: toc.png
-  description: Low-energy electron attachment to molecules often leads to the formation of shape resonances, which play a pivotal role in electron-driven chemical processes. While the total decay width of a resonance determines its auto-detachment lifetime, decomposing this width into partial contributions from various auto-detachment continuum channels may provide a deeper insight into the underlying decay dynamics. In this work, we explore the applicability of using bound state methods, in particular the analytic-continuation based stabilization method, for determining partial widths in medium-sized organic molecules. Angular momentum-resolved partial widths can be obtained by placing diffuse functions at the molecular center of mass. Using the stabilization method combined with the equation-of-motion electron attachment coupled cluster method, we applied this technique to pyridine and uracil, two prototypical π-conjugated systems, and analyzed the contributions of s-, p-, d-, f-, g-, h-, and i-type functions to the widths of shape resonances. Our results show that the dominant angular momentum component of each resonance width correlates strongly with the nodal structure of the corresponding resonant orbital. Importantly, we find that higher angular momentum functions, particularly d, f, g, and h, play a decisive role in accurately capturing resonance widths. Compared to conventional atom-centered augmentation schemes, the center of mass-based approach alleviates some of the uncertainties in the stabilization method associated with inconsistent avoided crossings.
-  authors: M. Pyla, S. Matsika
+  image: "toc.jpeg"
+  description: >
+    Low-energy electron attachment to molecules often leads to the formation of shape resonances,
+    which play a pivotal role in electron-driven chemical processes. While the total decay width of
+    a resonance determines its auto-detachment lifetime, decomposing this width into partial
+    contributions from various auto-detachment continuum channels may provide a deeper insight
+    into the underlying decay dynamics. In this work, we explore the applicability of using bound
+    state methods, in particular the analytic-continuation based stabilization method, for
+    determining partial widths in medium-sized organic molecules. Angular momentum-resolved
+    partial widths can be obtained by placing diffuse functions at the molecular center of mass.
+    Using the stabilization method combined with the equation-of-motion electron attachment
+    coupled cluster method, we applied this technique to pyridine and uracil, two prototypical
+    π-conjugated systems, and analyzed the contributions of s-, p-, d-, f-, g-, h-, and i-type
+    functions to the widths of shape resonances. Our results show that the dominant angular
+    momentum component of each resonance width correlates strongly with the nodal structure of
+    the corresponding resonant orbital. Importantly, we find that higher angular momentum
+    functions, particularly d, f, g, and h, play a decisive role in accurately capturing resonance
+    widths. Compared to conventional atom-centered augmentation schemes, the center-of-mass-based
+    approach alleviates some of the uncertainties in the stabilization method associated with
+    inconsistent avoided crossings.
+  authors: "M. Pyla, S. Matsika"
   link:
-    url: https://doi.org/10.1063/5.0300546
-    display: J. Chem. Phys. 164, 014308 (2026) 
+    url: "https://doi.org/10.1063/5.0300546"
+    display: "J. Chem. Phys. 164, 014308 (2026)"
   highlight: 1
-  news2:
+  news2: ""
+
   
 - title: "Statistical vs. direct dissociation of molecular dications"
   image:
