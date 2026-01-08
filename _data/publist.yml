@@ -1,6 +1,6 @@
 - title: "Partial Widths of Shape Resonances in Pyridine and Uracil Using the Stabilization Method"
   image: 
-  description: In this work, we explore the applicability of using bound state methods, in particular the analytic-continuation based stabilization method, for determining partial widths in medium-sized organic molecules. Angular momentum-resolved partial widths can be obtained by placing diffuse functions at the molecular center of mass. Our results show that the dominant angular momentum component of each resonance width correlates strongly with the nodal structure of the corresponding resonant orbital. Importantly, we find that higher angular momentum functions, particularly d, f, g, and h, play a decisive role in accurately capturing resonance widths. Compared to conventional atom-centered augmentation schemes, the center-of-mass-based approach alleviates some of the uncertainties in the stabilization method associated with inconsistent avoided crossings.
+  description: 
   authors: "M. Pyla, S. Matsika"
   link:
     url: "https://doi.org/10.1063/5.0300546"
