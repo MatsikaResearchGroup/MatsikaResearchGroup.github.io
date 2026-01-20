@@ -1,3 +1,13 @@
+- title: "Time resolved probing of the ultrafast excited state dynamics of cis, cis-1, 3-cyclooctadiene"
+  image: 
+  description: 
+  authors: S. McClung, T. Long, S. Matsika and T. Weinacht
+  link:
+    url: https://doi.org/10.1063/5.0308252
+    display: J. Chem. Phys. 164, 034301 (2026)
+  highlight: 0
+  news2: 
+
 - title: "Partial Widths of Shape Resonances in Pyridine and Uracil Using the Stabilization Method"
   image: 
   description: 
@@ -7,7 +17,6 @@
     display: J. Chem. Phys. 164, 014308 (2026)
   highlight: 0
   news2: 
-
   
 - title: "Statistical vs. direct dissociation of molecular dications"
   image:
