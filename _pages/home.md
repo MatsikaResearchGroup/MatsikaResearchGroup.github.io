@@ -37,7 +37,7 @@ We are a theoretical research group at the [Temple University Dept of Chemistry]
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mohdcy3.gif" alt="Slide 5" />
         </div>
-         <div class="item">
+        <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/toc1.png" alt="Slide 6" />
         </div>-->
         <!--<div class="item">
