@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are a theoretical chemistry research group at the [Temple University Dept of Chemistry](https://chem.cst.temple.edu) dedicated to developing and applying advanced electronic-structure and dynamical methods to investigate nonadiabatic phenomena and photon- and electron-driven reactions.
+We are a theoretical chemistry research group at [Temple University Dept of Chemistry](https://chem.cst.temple.edu) dedicated to developing and applying advanced electronic-structure and dynamical methods to investigate nonadiabatic phenomena in photon- and electron-driven reactions, with the goal of better understanding radiation damage to DNA.
 
 <!--
 <div>
