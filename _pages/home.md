@@ -25,6 +25,7 @@ We are a theoretical research group at the [Temple University Dept of Chemistry]
       <li data-target="#carousel" data-slide-to="3"></li>
       <li data-target="#carousel" data-slide-to="4"></li>
       <li data-target="#carousel" data-slide-to="5"></li>
+      <li data-target="#carousel" data-slide-to="6"></li>
   </ol>
 
   <!-- Slides -->
@@ -37,19 +38,19 @@ We are a theoretical research group at the [Temple University Dept of Chemistry]
           <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cover.png" alt="Slide 2" />
       </div>
       <div class="item">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jacs.gif" alt="Slide 2" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jacs.gif" alt="Slide 3" />
       </div>
       <div class="item">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/salsamodabs.jpg" alt="Slide 3" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/salsamodabs.jpg" alt="Slide 4" />
       </div>
       <div class="item">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mushres.gif" alt="Slide 4" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mushres.gif" alt="Slide 5" />
       </div>
       <div class="item">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mohdcy3.gif" alt="Slide 5" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mohdcy3.gif" alt="Slide 6" />
       </div>
       <div class="item">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/toc1.png" alt="Slide 6" />
+          <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/toc1.png" alt="Slide 7" />
       </div>
 
   </div>
