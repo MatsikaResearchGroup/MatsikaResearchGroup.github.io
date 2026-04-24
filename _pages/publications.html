@@ -75,7 +75,7 @@ permalink: /publications/
   background: linear-gradient(to right, var(--border), transparent);
 }
 
-/* ── Highlight grid: 2 per row, image on top ─────────────────────── */
+/* ── Highlight grid: 2 per row ───────────────────────────────────── */
 .highlight-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -101,22 +101,24 @@ permalink: /publications/
   transform: translateY(-3px);
 }
 
-/* image on top, full width, contained */
+/* image: fills full card width, fixed height, cover so no gaps */
 .highlight-card .card-img {
   width: 100%;
-  background: #f0ece4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  box-sizing: border-box;
+  height: 220px;
+  overflow: hidden;
+  flex-shrink: 0;
   border-bottom: 1px solid var(--border);
 }
 .highlight-card .card-img img {
   width: 100%;
-  max-height: 200px;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
   display: block;
+  transition: transform 0.4s ease;
+}
+.highlight-card:hover .card-img img {
+  transform: scale(1.04);
 }
 
 /* text below */
