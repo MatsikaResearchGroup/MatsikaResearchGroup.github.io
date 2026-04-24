@@ -20,7 +20,7 @@ permalink: /publications/
   --radius:   10px;
 
   font-family: 'Source Sans 3', sans-serif;
-  font-size: 19px;
+  font-size: 22px;
   color: var(--ink);
   background: var(--bg);
   padding-bottom: 80px;
@@ -34,14 +34,14 @@ permalink: /publications/
 }
 .pub-header h1 {
   font-family: 'Lora', serif;
-  font-size: 3.2rem;
+  font-size: 3.4rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--ink);
   margin: 0 0 14px;
 }
 .pub-header .sub-links {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: var(--muted);
 }
 .pub-header .sub-links a {
@@ -58,11 +58,11 @@ permalink: /publications/
   display: flex;
   align-items: center;
   gap: 14px;
-  margin: 0 0 32px;
+  margin: 0 0 36px;
 }
 .section-label h2 {
   font-family: 'Lora', serif;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 600;
   color: var(--ink);
   margin: 0;
@@ -79,7 +79,7 @@ permalink: /publications/
 .highlight-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 28px;
   margin-bottom: 72px;
 }
 
@@ -89,65 +89,59 @@ permalink: /publications/
   border-radius: var(--radius);
   overflow: hidden;
   display: grid;
-  grid-template-columns: 38% 1fr;   /* image ~38%, text ~62% */
+  grid-template-columns: 38% 1fr;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   transition: box-shadow 0.22s, transform 0.22s;
-  min-height: 220px;
+  min-height: 240px;
 }
 .highlight-card:hover {
   box-shadow: 0 8px 32px rgba(0,0,0,0.11);
   transform: translateY(-3px);
 }
-
 @media (max-width: 640px) {
-  .highlight-card {
-    grid-template-columns: 1fr;
-  }
+  .highlight-card { grid-template-columns: 1fr; }
 }
 
-/* image panel */
 .highlight-card .card-img {
   background: #f0ece4;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 22px;
   border-right: 1px solid var(--border);
-  overflow: hidden;
 }
 .highlight-card .card-img img {
   width: 100%;
   height: 100%;
-  object-fit: contain;   /* full image, no cropping */
+  object-fit: contain;
   display: block;
-  max-height: 280px;
+  max-height: 300px;
 }
 
-/* text panel */
 .highlight-card .card-body {
-  padding: 28px 30px;
+  padding: 32px 36px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
   justify-content: center;
 }
 
 .card-title {
   font-family: 'Lora', serif;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 600;
   line-height: 1.45;
   color: var(--ink);
   margin: 0;
 }
 .card-desc {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   line-height: 1.7;
   color: var(--muted);
   margin: 0;
 }
 .card-authors {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-style: italic;
   color: var(--muted);
   margin: 0;
@@ -156,7 +150,7 @@ permalink: /publications/
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--red);
   text-decoration: none;
@@ -166,13 +160,13 @@ permalink: /publications/
 .card-link a:hover { border-color: var(--red); }
 .card-link a::after { content: ' →'; }
 .card-news1 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--red);
   margin: 0;
 }
 .card-news2 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--muted);
   margin: 0;
 }
@@ -184,9 +178,9 @@ permalink: /publications/
 }
 .pub-entry {
   display: grid;
-  grid-template-columns: 48px 1fr;
-  gap: 0 20px;
-  padding: 22px 0;
+  grid-template-columns: 52px 1fr;
+  gap: 0 22px;
+  padding: 26px 0;
   border-bottom: 1px solid var(--border);
   align-items: start;
   transition: background 0.15s;
@@ -194,7 +188,7 @@ permalink: /publications/
 .pub-entry:last-child { border-bottom: none; }
 .pub-entry:hover { background: rgba(139,26,26,0.025); }
 .pub-index {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--gold);
   letter-spacing: 0.04em;
@@ -204,20 +198,20 @@ permalink: /publications/
 }
 .pub-title {
   font-family: 'Lora', serif;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: var(--ink);
-  line-height: 1.55;
-  margin: 0 0 6px;
+  line-height: 1.5;
+  margin: 0 0 7px;
 }
 .pub-authors {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--muted);
   font-style: italic;
-  margin: 0 0 6px;
+  margin: 0 0 7px;
 }
 .pub-journal a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--red);
   text-decoration: none;
