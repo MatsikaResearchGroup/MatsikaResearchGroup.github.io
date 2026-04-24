@@ -129,7 +129,8 @@ permalink: /pictures/
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: var(--gap);
-  margin: 20px 0 40px;
+  margin: 20px auto 40px;
+  max-width: 560px;
 }
 .pic-grid-item {
   border-radius: var(--radius);
@@ -161,7 +162,8 @@ permalink: /pictures/
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--gap);
-  margin: 20px 0 40px;
+  margin: 20px auto 40px;
+  max-width: 560px;
 }
 @media (max-width: 768px) { .event-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 480px) { .event-grid { grid-template-columns: 1fr; } }
@@ -214,10 +216,11 @@ permalink: /pictures/
   overflow: hidden;
   border: 1px solid var(--clr-border);
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-  margin: 20px 0 40px;
+  margin: 20px auto 40px;
+  max-width: 560px;
 }
 .philly-card .img-wrap {
-  aspect-ratio: 16 / 6;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
 }
 .philly-card img {
@@ -384,3 +387,4 @@ permalink: /pictures/
   </div>
 
 </div><!-- /pictures-page -->
+
