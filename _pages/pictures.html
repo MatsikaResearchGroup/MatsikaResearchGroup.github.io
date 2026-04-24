@@ -111,8 +111,6 @@ permalink: /pictures/
   transition: transform 0.5s ease;
 }
 .hero-photo:hover .img-wrap img { transform: scale(1.025); }
-
-/* Caption sits directly under the image, connected visually */
 .hero-caption {
   background: var(--clr-card);
   border: 1px solid var(--clr-border);
@@ -210,26 +208,57 @@ permalink: /pictures/
   margin-bottom: 4px;
 }
 
+/* ── Philadelphia full-width card ────────────────────────────────── */
+.philly-card {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--clr-border);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin: 20px 0 40px;
+}
+.philly-card .img-wrap {
+  aspect-ratio: 16 / 6;
+  overflow: hidden;
+}
+.philly-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.philly-card:hover img { transform: scale(1.03); }
+.philly-card .caption {
+  padding: 16px 20px;
+  font-size: 1.05rem;
+  color: var(--clr-muted);
+  background: var(--clr-card);
+  border-top: 1px solid var(--clr-border);
+  font-style: italic;
+}
+
 #philadelphia { scroll-margin-top: 60px; }
 #temple       { scroll-margin-top: 60px; }
+#conferences  { scroll-margin-top: 60px; }
 </style>
 
 <div class="pictures-page">
 
+  <!-- Header -->
   <div class="pic-header">
     <h1>Gallery</h1>
     <ul class="nav-pills">
       <li><a href="#temple">Temple</a></li>
+      <li><a href="#conferences">Conferences &amp; Events</a></li>
       <li><a href="#philadelphia">Philadelphia</a></li>
     </ul>
   </div>
 
+  <!-- ══ TEMPLE ══════════════════════════════════════════════════════ -->
   <div id="temple">
     <h2 class="pic-section-title">Temple</h2>
 
-    <p class="pic-sub-title">Current Group &mdash; Fall 2025</p>
-
-    <!-- Hero photo + caption wrapped together, caption outside overflow:hidden -->
+    <p class="pic-sub-title">Current Group &mdash; Spring 2026</p>
     <div class="hero-wrap">
       <div class="hero-photo">
         <div class="img-wrap">
@@ -238,7 +267,7 @@ permalink: /pictures/
         </div>
       </div>
       <div class="hero-caption">
-        (left to right) Dakshitha, Hind, Juan, Spiridoula, Maneesh, Natalie, Trevor and Kanishka 
+        (left to right) Dakshitha, Hind, Juan, Spiridoula, Maneesh, Natalie, Trevor and Kanishka
       </div>
     </div>
 
@@ -253,8 +282,11 @@ permalink: /pictures/
       </div>
       {% endfor %}
     </div>
+  </div>
 
-    <p class="pic-sub-title">Conferences &amp; Events</p>
+  <!-- ══ CONFERENCES & EVENTS ════════════════════════════════════════ -->
+  <div id="conferences">
+    <h2 class="pic-section-title">Conferences &amp; Events</h2>
     <div class="event-grid">
 
       <div class="event-card">
@@ -337,17 +369,18 @@ permalink: /pictures/
         </div>
       </div>
 
-      <div class="event-card" id="philadelphia">
-        <div class="img-wrap">
-          <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/phillycollage.jpg" alt="Philadelphia" />
-        </div>
-        <div class="caption">
-          <strong>Philadelphia</strong>
-          City of Brotherly Love &#10084;
-        </div>
-      </div>
-
     </div>
   </div>
 
-</div>
+  <!-- ══ PHILADELPHIA ═════════════════════════════════════════════════ -->
+  <div id="philadelphia">
+    <h2 class="pic-section-title">Philadelphia</h2>
+    <div class="philly-card">
+      <div class="img-wrap">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/phillycollage.jpg" alt="Philadelphia" />
+      </div>
+      <div class="caption">City of Brotherly Love &#10084;</div>
+    </div>
+  </div>
+
+</div><!-- /pictures-page -->
