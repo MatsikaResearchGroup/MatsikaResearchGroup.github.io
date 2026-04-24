@@ -6,91 +6,240 @@ sitemap: false
 permalink: /
 ---
 
-We are a theoretical chemistry research group at [Temple University Dept of Chemistry](https://chem.cst.temple.edu) dedicated to developing and applying advanced electronic-structure and dynamical methods to investigate nonadiabatic phenomena in photon- and electron-driven reactions, with the goal of better understanding radiation damage to DNA.
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
-<!--
-<div>
-We are a theoretical research group at the [Temple University Dept of Chemistry](https://chem.cst.temple.edu). The focus of our group is to develop and apply theoretical methods to study nonadiabatic phenomena and their potential implications.
-</div>
--->
+.home-page {
+  --red:    #8b1a1a;
+  --gold:   #c9a84c;
+  --ink:    #2a2118;
+  --muted:  #6b5f52;
+  --border: #e3ddd4;
+  --bg:     #f7f5f0;
+  --card:   #ffffff;
+  --radius: 10px;
 
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  color: var(--ink);
+  line-height: 1.75;
+}
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" aria-roledescription="carousel" aria-label="Research highlights">
+/* ── Intro text ──────────────────────────────────────────────────── */
+.home-intro {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--ink);
+  margin: 0 0 32px;
+  max-width: 820px;
+}
+.home-intro a {
+  color: var(--red);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+  font-weight: 500;
+}
+.home-intro a:hover { border-color: var(--red); }
 
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel" data-slide-to="0" class="active" aria-label="Slide 1"></li>
-    <li data-target="#carousel" data-slide-to="1" aria-label="Slide 2"></li>
-    <li data-target="#carousel" data-slide-to="2" aria-label="Slide 3"></li>
-    <li data-target="#carousel" data-slide-to="3" aria-label="Slide 4"></li>
-    <li data-target="#carousel" data-slide-to="4" aria-label="Slide 5"></li>
-    <li data-target="#carousel" data-slide-to="5" aria-label="Slide 6"></li>
-    <li data-target="#carousel" data-slide-to="6" aria-label="Slide 7"></li>
-  </ol>
+/* ── Carousel ────────────────────────────────────────────────────── */
+#carousel {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  border: 1px solid var(--border);
+  margin: 0 0 36px;
+}
+#carousel .carousel-inner {
+  border-radius: var(--radius);
+}
+#carousel img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+#carousel .carousel-control {
+  background: none;
+  width: 48px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+#carousel:hover .carousel-control { opacity: 1; }
+#carousel .carousel-control .glyphicon {
+  color: #fff;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.6);
+  font-size: 1.5rem;
+}
+#carousel .carousel-indicators li {
+  background-color: rgba(255,255,255,0.5);
+  border-color: rgba(255,255,255,0.8);
+  width: 8px;
+  height: 8px;
+}
+#carousel .carousel-indicators .active {
+  background-color: #fff;
+  width: 10px;
+  height: 10px;
+}
 
-  <!-- Slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/kanishka1.jpg"
-           alt="Research highlight 1"
-           onerror="this.style.display='none'" />
+/* ── Focus areas text ────────────────────────────────────────────── */
+.home-body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 0 0 28px;
+  max-width: 820px;
+}
+.home-body strong a,
+.home-body a {
+  color: var(--red);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+  font-weight: 600;
+}
+.home-body strong a:hover,
+.home-body a:hover { border-color: var(--red); }
+
+/* ── Hiring banner ───────────────────────────────────────────────── */
+.hiring-banner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--red);
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin: 28px 0 36px;
+  max-width: 820px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.hiring-banner .hiring-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
+.hiring-banner p {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--ink);
+  line-height: 1.6;
+}
+.hiring-banner a {
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+.hiring-banner a:hover { border-color: var(--red); }
+
+/* ── Section heading ─────────────────────────────────────────────── */
+.home-section-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.6rem;
+  color: var(--ink);
+  margin: 40px 0 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gold);
+  display: inline-block;
+}
+
+/* ── Funder logos ────────────────────────────────────────────────── */
+.funder-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  margin: 0 0 40px;
+}
+.funder-grid img {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  opacity: 0.85;
+  transition: opacity 0.2s, filter 0.2s;
+}
+.funder-grid img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
+</style>
+
+<div class="home-page">
+
+  <!-- Intro -->
+  <p class="home-intro">
+    We are a theoretical chemistry research group at <a href="https://chem.cst.temple.edu">Temple University Dept of Chemistry</a> dedicated to developing and applying advanced electronic-structure and dynamical methods to investigate nonadiabatic phenomena in photon- and electron-driven reactions, with the goal of better understanding radiation damage to DNA.
+  </p>
+
+  <!-- Carousel -->
+  <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" aria-roledescription="carousel" aria-label="Research highlights">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel" data-slide-to="0" class="active" aria-label="Slide 1"></li>
+      <li data-target="#carousel" data-slide-to="1" aria-label="Slide 2"></li>
+      <li data-target="#carousel" data-slide-to="2" aria-label="Slide 3"></li>
+      <li data-target="#carousel" data-slide-to="3" aria-label="Slide 4"></li>
+      <li data-target="#carousel" data-slide-to="4" aria-label="Slide 5"></li>
+      <li data-target="#carousel" data-slide-to="5" aria-label="Slide 6"></li>
+      <li data-target="#carousel" data-slide-to="6" aria-label="Slide 7"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/kanishka1.jpg" alt="Research highlight 1" onerror="this.style.display='none'" />
+      </div>
+      <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cover.png" alt="Cover image" onerror="this.style.display='none'" />
+      </div>
+      <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jacs.gif" alt="JACS publication figure" onerror="this.style.display='none'" />
+      </div>
+      <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/salsamodabs.jpg" alt="SALSA model absorption" onerror="this.style.display='none'" />
+      </div>
+      <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mushres.gif" alt="Research results" onerror="this.style.display='none'" />
+      </div>
+      <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mohdcy3.gif" alt="Molecular dynamics" onerror="this.style.display='none'" />
+      </div>
+      <div class="item">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/toc1.png" alt="Table of contents figure" onerror="this.style.display='none'" />
+      </div>
     </div>
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/cover.png"
-           alt="Cover image"
-           onerror="this.style.display='none'" />
-    </div>
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/jacs.gif"
-           alt="JACS publication figure"
-           onerror="this.style.display='none'" />
-    </div>
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/salsamodabs.jpg"
-           alt="SALSA model absorption"
-           onerror="this.style.display='none'" />
-    </div>
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mushres.gif"
-           alt="Mushroom research results"
-           onerror="this.style.display='none'" />
-    </div>
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/mohdcy3.gif"
-           alt="Molecular dynamics cycle 3"
-           onerror="this.style.display='none'" />
-    </div>
-    <div class="item">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/toc1.png"
-           alt="Table of contents figure"
-           onerror="this.style.display='none'" />
-    </div>
+    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev" aria-label="Previous slide">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel" role="button" data-slide="next" aria-label="Next slide">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
 
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev" aria-label="Previous slide">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next" aria-label="Next slide">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <!-- Body text -->
+  <p class="home-body">
+    Most chemical processes follow the Born-Oppenheimer (adiabatic) approximation, in which the nuclei move on a single potential energy surface. However there are important processes where this approximation breaks down. These nonadiabatic events play an important role in essential processes in nature such as photosynthesis, vision, charge transfer and photochemistry. Focus areas are: photophysics and photochemistry of biologically relevant systems, such as DNA/RNA; theoretical description of conical intersections and excited states; understanding laser control of molecular dynamics.
+  </p>
+
+  <!-- Hiring banner -->
+  <div class="hiring-banner">
+    <div class="hiring-icon">🔬</div>
+    <p>
+      We are looking for passionate new <strong>PhD students</strong>, <strong>Postdocs</strong>, and <strong>Master students</strong> to join the team —
+      <a href="{{ site.url }}{{ site.baseurl }}/vacancies">more info here</a>.
+    </p>
+  </div>
+
+  <!-- Funders -->
+  <h2 class="home-section-title">Funded by</h2>
+  <div class="funder-grid">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_NSF.jpg" alt="NSF" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_DOE.jpg" alt="DOE" />
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Temple.jpg" alt="Temple University" />
+  </div>
 
 </div>
-
-Most chemical processes follow the Born-Oppenheimer (adiabatic) approximation, in which the nuclei move on a single potential energy surface. However there are important processes where this approximation breaks down. These nonadiabatic events play an important role in essential processes in nature such as photosynthesis, vision, charge transfer and photochemistry. Focus areas are: Photophysics and photochemistry of biologically relevant systems, such as DNA/RNA; Theoretical description of conical intersections and excited states; Understanding laser control of molecular dynamics. 
-
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** 
-
-<!--<figure class="second"> <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/matsika-lab-icon.png" style="width: 280px"> </figure>--> 
-
-<!--We are grateful for funding from Leiden University, [NWO](www.nwo.nl) ([Vidi talent scheme](http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme) and the [Frontiers in Nanoscience program](https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront)), and from an [ERC starting grant](https://erc.europa.eu/funding/starting-grants).--> 
-
-
-## Funded by<span>&#58;</span>
-
-<figure class="second">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/nsf.jpg" style="width: 160px">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/doe.gif" style="width: 150px">
-</figure>
