@@ -17,9 +17,10 @@ permalink: /publications/
   --border:   #ddd8cf;
   --bg:       #faf8f4;
   --card-bg:  #ffffff;
-  --radius:   8px;
+  --radius:   10px;
 
   font-family: 'Source Sans 3', sans-serif;
+  font-size: 17px;
   color: var(--ink);
   background: var(--bg);
   padding-bottom: 80px;
@@ -33,14 +34,14 @@ permalink: /publications/
 }
 .pub-header h1 {
   font-family: 'Lora', serif;
-  font-size: 2.8rem;
+  font-size: 3rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--ink);
   margin: 0 0 14px;
 }
 .pub-header .sub-links {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: var(--muted);
 }
 .pub-header .sub-links a {
@@ -61,7 +62,7 @@ permalink: /publications/
 }
 .section-label h2 {
   font-family: 'Lora', serif;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 600;
   color: var(--ink);
   margin: 0;
@@ -78,8 +79,8 @@ permalink: /publications/
 .highlight-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
-  margin-bottom: 64px;
+  gap: 28px;
+  margin-bottom: 72px;
 }
 @media (max-width: 720px) {
   .highlight-grid { grid-template-columns: 1fr; }
@@ -100,76 +101,74 @@ permalink: /publications/
   transform: translateY(-3px);
 }
 
-/* image strip at top */
+/* image: contain so the full image is always visible, no cropping */
 .highlight-card .card-img {
-  aspect-ratio: 16 / 7;
-  overflow: hidden;
+  width: 100%;
   background: #f0ece4;
-  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--border);
+  min-height: 180px;
 }
 .highlight-card .card-img img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-height: 240px;
+  object-fit: contain;
   display: block;
-  transition: transform 0.4s ease;
 }
-.highlight-card:hover .card-img img { transform: scale(1.04); }
 
 .highlight-card .card-body {
-  padding: 22px 24px 20px;
+  padding: 24px 26px 22px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
   flex: 1;
 }
 
 .card-title {
   font-family: 'Lora', serif;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 600;
-  line-height: 1.45;
+  line-height: 1.5;
   color: var(--ink);
   margin: 0;
 }
-
 .card-desc {
-  font-size: 0.9rem;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.7;
   color: var(--muted);
   margin: 0;
 }
-
 .card-authors {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   font-style: italic;
   color: var(--muted);
   margin: 0;
 }
-
 .card-link a {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
-  font-size: 0.82rem;
+  gap: 4px;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--red);
   text-decoration: none;
-  letter-spacing: 0.02em;
   border-bottom: 1px solid transparent;
   transition: border-color 0.15s;
 }
 .card-link a:hover { border-color: var(--red); }
-.card-link a::after { content: '→'; }
-
+.card-link a::after { content: ' →'; }
 .card-news1 {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--red);
   margin: 0;
 }
 .card-news2 {
-  font-size: 0.82rem;
+  font-size: 0.95rem;
   color: var(--muted);
   margin: 0;
 }
@@ -178,48 +177,43 @@ permalink: /publications/
 .pub-list {
   display: flex;
   flex-direction: column;
-  gap: 0;
 }
-
 .pub-entry {
   display: grid;
-  grid-template-columns: 32px 1fr;
-  gap: 0 16px;
-  padding: 18px 0;
+  grid-template-columns: 44px 1fr;
+  gap: 0 18px;
+  padding: 22px 0;
   border-bottom: 1px solid var(--border);
   align-items: start;
   transition: background 0.15s;
 }
 .pub-entry:last-child { border-bottom: none; }
-.pub-entry:hover { background: rgba(139,26,26,0.02); }
-
+.pub-entry:hover { background: rgba(139,26,26,0.025); }
 .pub-index {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--gold);
   letter-spacing: 0.04em;
-  padding-top: 3px;
+  padding-top: 4px;
   text-align: right;
   user-select: none;
 }
-
-.pub-content {}
 .pub-title {
   font-family: 'Lora', serif;
-  font-size: 0.97rem;
+  font-size: 1.08rem;
   font-weight: 600;
   color: var(--ink);
-  line-height: 1.5;
-  margin: 0 0 4px;
-}
-.pub-authors {
-  font-size: 0.84rem;
-  color: var(--muted);
-  font-style: italic;
+  line-height: 1.55;
   margin: 0 0 5px;
 }
+.pub-authors {
+  font-size: 0.97rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0 0 6px;
+}
 .pub-journal a {
-  font-size: 0.84rem;
+  font-size: 0.97rem;
   font-weight: 500;
   color: var(--red);
   text-decoration: none;
@@ -231,7 +225,6 @@ permalink: /publications/
 
 <div class="pub-page">
 
-  <!-- Header -->
   <div class="pub-header">
     <h1>Publications</h1>
     <p class="sub-links">
@@ -240,14 +233,11 @@ permalink: /publications/
     </p>
   </div>
 
-  <!-- ══ HIGHLIGHTS ══════════════════════════════════════════════════ -->
+  <!-- HIGHLIGHTS -->
   <div class="section-label"><h2>Highlights</h2></div>
-
   <div class="highlight-grid">
-  {% assign number_printed = 0 %}
   {% for publi in site.data.publist %}
   {% if publi.highlight == 1 %}
-
     <div class="highlight-card">
       {% if publi.image %}
       <div class="card-img">
@@ -257,30 +247,19 @@ permalink: /publications/
       {% endif %}
       <div class="card-body">
         <p class="card-title">{{ publi.title }}</p>
-        {% if publi.description %}
-        <p class="card-desc">{{ publi.description }}</p>
-        {% endif %}
+        {% if publi.description %}<p class="card-desc">{{ publi.description }}</p>{% endif %}
         <p class="card-authors">{{ publi.authors }}</p>
-        {% if publi.link.url %}
-        <p class="card-link"><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></p>
-        {% endif %}
-        {% if publi.news1 %}
-        <p class="card-news1">{{ publi.news1 }}</p>
-        {% endif %}
-        {% if publi.news2 %}
-        <p class="card-news2">{{ publi.news2 }}</p>
-        {% endif %}
+        {% if publi.link.url %}<p class="card-link"><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></p>{% endif %}
+        {% if publi.news1 %}<p class="card-news1">{{ publi.news1 }}</p>{% endif %}
+        {% if publi.news2 %}<p class="card-news2">{{ publi.news2 }}</p>{% endif %}
       </div>
     </div>
-
-  {% assign number_printed = number_printed | plus: 1 %}
   {% endif %}
   {% endfor %}
   </div>
 
-  <!-- ══ FULL LIST ════════════════════════════════════════════════════ -->
+  <!-- FULL LIST -->
   <div id="full-list" class="section-label"><h2>Full List</h2></div>
-
   <div class="pub-list">
   {% assign total = site.data.publist | size %}
   {% assign counter = total %}
