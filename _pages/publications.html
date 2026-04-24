@@ -75,73 +75,75 @@ permalink: /publications/
   background: linear-gradient(to right, var(--border), transparent);
 }
 
-/* ── Highlight cards: image LEFT, text RIGHT ─────────────────────── */
-.highlight-list {
-  display: flex;
-  flex-direction: column;
+/* ── Highlight grid: 2 per row ───────────────────────────────────── */
+.highlight-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 28px;
   margin-bottom: 72px;
 }
+@media (max-width: 700px) {
+  .highlight-grid { grid-template-columns: 1fr; }
+}
 
+/* Each card: image left (40%), text right (60%) */
 .highlight-card {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
   display: grid;
-  grid-template-columns: 38% 1fr;
+  grid-template-columns: 40% 1fr;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   transition: box-shadow 0.22s, transform 0.22s;
-  min-height: 240px;
 }
 .highlight-card:hover {
-  box-shadow: 0 8px 32px rgba(0,0,0,0.11);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.11);
   transform: translateY(-3px);
 }
-@media (max-width: 640px) {
-  .highlight-card { grid-template-columns: 1fr; }
-}
 
+/* image panel — no wasted space, fills full height */
 .highlight-card .card-img {
   background: #f0ece4;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 22px;
+  padding: 16px;
   border-right: 1px solid var(--border);
+  align-self: stretch;
 }
 .highlight-card .card-img img {
   width: 100%;
   height: 100%;
   object-fit: contain;
   display: block;
-  max-height: 300px;
 }
 
+/* text panel */
 .highlight-card .card-body {
-  padding: 32px 36px;
+  padding: 22px 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 12px;
   justify-content: center;
 }
 
 .card-title {
   font-family: 'Lora', serif;
-  font-size: 1.4rem;
+  font-size: 1.15rem;
   font-weight: 600;
   line-height: 1.45;
   color: var(--ink);
   margin: 0;
 }
 .card-desc {
-  font-size: 1.15rem;
-  line-height: 1.7;
+  font-size: 1rem;
+  line-height: 1.65;
   color: var(--muted);
   margin: 0;
 }
 .card-authors {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-style: italic;
   color: var(--muted);
   margin: 0;
@@ -150,7 +152,7 @@ permalink: /publications/
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--red);
   text-decoration: none;
@@ -160,22 +162,20 @@ permalink: /publications/
 .card-link a:hover { border-color: var(--red); }
 .card-link a::after { content: ' →'; }
 .card-news1 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--red);
   margin: 0;
 }
 .card-news2 {
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: var(--muted);
   margin: 0;
 }
 
 /* ── Full list ────────────────────────────────────────────────────── */
-.pub-list {
-  display: flex;
-  flex-direction: column;
-}
+.pub-list { display: flex; flex-direction: column; }
+
 .pub-entry {
   display: grid;
   grid-template-columns: 52px 1fr;
@@ -187,6 +187,7 @@ permalink: /publications/
 }
 .pub-entry:last-child { border-bottom: none; }
 .pub-entry:hover { background: rgba(139,26,26,0.025); }
+
 .pub-index {
   font-size: 1rem;
   font-weight: 600;
@@ -233,7 +234,7 @@ permalink: /publications/
 
   <!-- HIGHLIGHTS -->
   <div class="section-label"><h2>Highlights</h2></div>
-  <div class="highlight-list">
+  <div class="highlight-grid">
   {% for publi in site.data.publist %}
   {% if publi.highlight == 1 %}
     <div class="highlight-card">
