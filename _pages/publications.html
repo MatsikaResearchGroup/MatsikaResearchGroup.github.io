@@ -13,14 +13,14 @@ permalink: /publications/
   --red:      #8b1a1a;
   --gold:     #b8933f;
   --ink:      #1c1812;
-  --muted:    #6b6155;
+  --muted:    #5a5148;
   --border:   #ddd8cf;
   --bg:       #faf8f4;
   --card-bg:  #ffffff;
   --radius:   10px;
 
   font-family: 'Source Sans 3', sans-serif;
-  font-size: 17px;
+  font-size: 19px;
   color: var(--ink);
   background: var(--bg);
   padding-bottom: 80px;
@@ -34,14 +34,14 @@ permalink: /publications/
 }
 .pub-header h1 {
   font-family: 'Lora', serif;
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--ink);
   margin: 0 0 14px;
 }
 .pub-header .sub-links {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--muted);
 }
 .pub-header .sub-links a {
@@ -62,7 +62,7 @@ permalink: /publications/
 }
 .section-label h2 {
   font-family: 'Lora', serif;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: 600;
   color: var(--ink);
   margin: 0;
@@ -75,15 +75,12 @@ permalink: /publications/
   background: linear-gradient(to right, var(--border), transparent);
 }
 
-/* ── Highlight cards ──────────────────────────────────────────────── */
-.highlight-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
+/* ── Highlight cards: image LEFT, text RIGHT ─────────────────────── */
+.highlight-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   margin-bottom: 72px;
-}
-@media (max-width: 720px) {
-  .highlight-grid { grid-template-columns: 1fr; }
 }
 
 .highlight-card {
@@ -91,59 +88,66 @@ permalink: /publications/
   border: 1px solid var(--border);
   border-radius: var(--radius);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 38% 1fr;   /* image ~38%, text ~62% */
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
   transition: box-shadow 0.22s, transform 0.22s;
+  min-height: 220px;
 }
 .highlight-card:hover {
   box-shadow: 0 8px 32px rgba(0,0,0,0.11);
   transform: translateY(-3px);
 }
 
-/* image: contain so the full image is always visible, no cropping */
+@media (max-width: 640px) {
+  .highlight-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* image panel */
 .highlight-card .card-img {
-  width: 100%;
   background: #f0ece4;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
-  box-sizing: border-box;
-  border-bottom: 1px solid var(--border);
-  min-height: 180px;
+  border-right: 1px solid var(--border);
+  overflow: hidden;
 }
 .highlight-card .card-img img {
   width: 100%;
-  max-height: 240px;
-  object-fit: contain;
+  height: 100%;
+  object-fit: contain;   /* full image, no cropping */
   display: block;
+  max-height: 280px;
 }
 
+/* text panel */
 .highlight-card .card-body {
-  padding: 24px 26px 22px;
+  padding: 28px 30px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  flex: 1;
+  gap: 14px;
+  justify-content: center;
 }
 
 .card-title {
   font-family: 'Lora', serif;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  line-height: 1.5;
+  line-height: 1.45;
   color: var(--ink);
   margin: 0;
 }
 .card-desc {
-  font-size: 1rem;
+  font-size: 1.05rem;
   line-height: 1.7;
   color: var(--muted);
   margin: 0;
 }
 .card-authors {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-style: italic;
   color: var(--muted);
   margin: 0;
@@ -152,7 +156,7 @@ permalink: /publications/
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--red);
   text-decoration: none;
@@ -162,13 +166,13 @@ permalink: /publications/
 .card-link a:hover { border-color: var(--red); }
 .card-link a::after { content: ' →'; }
 .card-news1 {
-  font-size: 0.95rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--red);
   margin: 0;
 }
 .card-news2 {
-  font-size: 0.95rem;
+  font-size: 1rem;
   color: var(--muted);
   margin: 0;
 }
@@ -180,8 +184,8 @@ permalink: /publications/
 }
 .pub-entry {
   display: grid;
-  grid-template-columns: 44px 1fr;
-  gap: 0 18px;
+  grid-template-columns: 48px 1fr;
+  gap: 0 20px;
   padding: 22px 0;
   border-bottom: 1px solid var(--border);
   align-items: start;
@@ -190,7 +194,7 @@ permalink: /publications/
 .pub-entry:last-child { border-bottom: none; }
 .pub-entry:hover { background: rgba(139,26,26,0.025); }
 .pub-index {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--gold);
   letter-spacing: 0.04em;
@@ -200,20 +204,20 @@ permalink: /publications/
 }
 .pub-title {
   font-family: 'Lora', serif;
-  font-size: 1.08rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--ink);
   line-height: 1.55;
-  margin: 0 0 5px;
+  margin: 0 0 6px;
 }
 .pub-authors {
-  font-size: 0.97rem;
+  font-size: 1rem;
   color: var(--muted);
   font-style: italic;
   margin: 0 0 6px;
 }
 .pub-journal a {
-  font-size: 0.97rem;
+  font-size: 1rem;
   font-weight: 500;
   color: var(--red);
   text-decoration: none;
@@ -235,7 +239,7 @@ permalink: /publications/
 
   <!-- HIGHLIGHTS -->
   <div class="section-label"><h2>Highlights</h2></div>
-  <div class="highlight-grid">
+  <div class="highlight-list">
   {% for publi in site.data.publist %}
   {% if publi.highlight == 1 %}
     <div class="highlight-card">
