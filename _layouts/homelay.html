@@ -2,17 +2,74 @@
 layout: default
 ---
 
-  <div id="homeid" class="col-sm-8">
-	  <h1><center>Welcome to the</center></h1>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
 
-<figure class="second">
-	<center>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/matsika-lab-icon.png" style="width: 350px">
-	</center>
-</figure>
+/* ── Welcome heading ─────────────────────────────────────────────── */
+.home-welcome {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #2a2118;
+  text-align: center;
+  letter-spacing: -0.01em;
+  margin: 24px 0 16px;
+}
 
-	{{ content }}
+/* ── Lab logo ────────────────────────────────────────────────────── */
+.home-logo {
+  text-align: center;
+  margin: 0 0 28px;
+}
+.home-logo img {
+  width: 320px;
+  max-width: 100%;
+}
+
+/* ── Main content inherits intro font ────────────────────────────── */
+#homeid {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.15rem;
+  color: #2a2118;
+  line-height: 1.8;
+}
+
+/* ── News sidebar ────────────────────────────────────────────────── */
+#newsid {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  color: #2a2118;
+  line-height: 1.7;
+  border-left: 2px solid #e3ddd4;
+  padding-left: 20px;
+}
+#newsid h2, #newsid h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.4rem;
+  color: #8b1a1a;
+  margin-bottom: 14px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #c9a84c;
+  display: inline-block;
+}
+#newsid a {
+  color: #8b1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+  font-weight: 500;
+}
+#newsid a:hover { border-color: #8b1a1a; }
+</style>
+
+<div id="homeid" class="col-sm-8">
+  <h1 class="home-welcome">Welcome to the</h1>
+  <div class="home-logo">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/matsika-lab-icon.png" alt="Matsika Lab" />
   </div>
-  <div id="newsid" class="col-sm-4" >
-	{% include news.html %}
-  </div>
+  {{ content }}
+</div>
+
+<div id="newsid" class="col-sm-4">
+  {% include news.html %}
+</div>
