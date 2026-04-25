@@ -6,30 +6,203 @@ sitemap: false
 permalink: /vacancies
 ---
 
-# Open positions
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
 
-We are always looking for new group members with passion, talent, and grit!
+.openings-page {
+  --red:    #8b1a1a;
+  --gold:   #c9a84c;
+  --ink:    #2a2118;
+  --muted:  #6b5f52;
+  --border: #e3ddd4;
+  --card:   #ffffff;
+  --radius: 10px;
 
-You will have the chance to work on stimulating problems in 'Theoretical and Computational Chemistry'!!
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.15rem;
+  color: var(--ink);
+  line-height: 1.8;
+}
 
-<!-- <b> Current open positions </b>
-<p>[Postdoc position available]({{ site.baseurl }}/downloads/Postdoctoral_position_available2023.docx)</p>. -->
+/* ── Page header ─────────────────────────────────────────────────── */
+.openings-header {
+  margin: 0 0 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+}
+.openings-header h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem;
+  color: var(--ink);
+  margin: 0 0 16px;
+  letter-spacing: -0.02em;
+}
+.openings-header .intro {
+  font-size: 1.15rem;
+  color: var(--ink);
+  max-width: 720px;
+  margin: 0;
+}
 
-<!--### Current open positions
+/* ── Position cards ──────────────────────────────────────────────── */
+.positions-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 36px 0 48px;
+}
+@media (max-width: 640px) { .positions-grid { grid-template-columns: 1fr; } }
 
-You find the current job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf).
+.position-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 30px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s, transform 0.2s;
+  border-top: 3px solid var(--red);
+}
+.position-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.10);
+  transform: translateY(-3px);
+}
+.position-card .pos-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+  display: block;
+}
+.position-card h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.35rem;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+.position-card p {
+  font-size: 1.05rem;
+  color: var(--muted);
+  margin: 0 0 16px;
+  line-height: 1.7;
+}
+.position-card a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--red);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+.position-card a:hover { border-color: var(--red); }
+.position-card a::after { content: ' →'; }
 
-It might be interesting to look at some past job advertisements. While the projects keep changing, the themes are still roughly the same. You can download them [here]({{ site.baseurl }}/downloads/PD.pdf), [here]({{ site.baseurl }}/downloads/PHD1.pdf), or [here]({{ site.baseurl }}/downloads/PHD2.pdf).-->
+/* ── What we offer ───────────────────────────────────────────────── */
+.offer-section {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 36px;
+  margin: 0 0 48px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+.offer-section h2 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.6rem;
+  color: var(--ink);
+  margin: 0 0 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gold);
+  display: inline-block;
+}
+.offer-list {
+  list-style: none;
+  padding: 0; margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 32px;
+}
+@media (max-width: 640px) { .offer-list { grid-template-columns: 1fr; } }
+.offer-list li {
+  font-size: 1.05rem;
+  color: var(--ink);
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.6;
+}
+.offer-list li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+</style>
 
-### Applications for Graduate positions
-If you are interested in working with our group as a PhD/Masters student, please apply to the [Temple Chemistry graduate program](https://chem.cst.temple.edu/apply.html).
+<div class="openings-page">
 
-### Undergraduate students
-If you are an undergraduate student at Temple interested in working with us, please visit us in Beury Hall. Contact details are given below.
+  <div class="openings-header">
+    <h1>Open Positions</h1>
+    <p class="intro">
+      We are always looking for new group members with passion, talent, and grit.
+      You will have the chance to work on stimulating problems in theoretical and computational chemistry!
+    </p>
+  </div>
 
+  <div class="positions-grid">
 
-<figure>
+    <div class="position-card">
+      <span class="pos-icon">🎓</span>
+      <h3>Graduate Students</h3>
+      <p>
+        Interested in joining as a PhD or Master's student? Apply directly through the Temple Chemistry graduate admissions portal.
+      </p>
+      <a href="https://chem.cst.temple.edu/apply.html">Apply to Temple Chemistry</a>
+    </div>
+
+    <div class="position-card">
+      <span class="pos-icon">🔬</span>
+      <h3>Undergraduate Students</h3>
+      <p>
+        Temple undergraduates interested in research are welcome to reach out. Come visit us in Beury Hall — contact details below.
+      </p>
+      <a href="#contact">Contact us</a>
+    </div>
+
+    <div class="position-card">
+      <span class="pos-icon">📄</span>
+      <h3>Postdoctoral Fellows</h3>
+      <p>
+        We occasionally have openings for postdoctoral researchers. Motivated candidates with relevant backgrounds are encouraged to get in touch.
+      </p>
+      <a href="mailto:spiridoula.matsika@temple.edu">Email the PI</a>
+    </div>
+
+    <div class="position-card">
+      <span class="pos-icon">🌍</span>
+      <h3>Visiting Researchers</h3>
+      <p>
+        We welcome visiting students and researchers for short or extended stays. Please reach out directly to discuss possibilities.
+      </p>
+      <a href="mailto:spiridoula.matsika@temple.edu">Get in touch</a>
+    </div>
+
+  </div>
+
+  <div class="offer-section">
+    <h2>What we offer</h2>
+    <ul class="offer-list">
+      <li>Exciting research at the frontier of theoretical chemistry</li>
+      <li>Training in advanced electronic structure methods</li>
+      <li>Collaborative and international research environment</li>
+      <li>Opportunities to attend conferences and workshops</li>
+      <li>Mentorship and career development support</li>
+      <li>Access to high-performance computing resources</li>
+    </ul>
+  </div>
+
+</div>
 <img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/templeowl.jpg" width="90%">
 </figure>
