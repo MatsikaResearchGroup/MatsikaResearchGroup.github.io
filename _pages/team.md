@@ -6,212 +6,326 @@ sitemap: false
 permalink: /team/
 ---
 
-<!--# Group Members
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
 
- **We are  looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**-->
+.team-page {
+  --red:    #8b1a1a;
+  --gold:   #c9a84c;
+  --ink:    #2a2118;
+  --muted:  #6b5f52;
+  --border: #e3ddd4;
+  --bg:     #f7f5f0;
+  --card:   #ffffff;
+  --radius: 10px;
 
-<!--Jump to [Group Leader](#group-leader), [Members](#members)-->
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.05rem;
+  color: var(--ink);
+  line-height: 1.75;
+}
 
-## Group Leader
-{% assign number_printed = 0 %}
-{% for member in site.data.group_leader %}
+/* ── Section titles ──────────────────────────────────────────────── */
+.team-section-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  color: var(--ink);
+  margin: 52px 0 28px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--gold);
+  display: inline-block;
+}
 
-{% assign even_odd = number_printed | modulo: 2 %}
+/* ── Leader card (full width, horizontal) ────────────────────────── */
+.leader-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 14px rgba(0,0,0,0.07);
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 0;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.leader-card .member-img {
+  width: 200px;
+  height: 100%;
+  min-height: 220px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+.leader-card .member-info {
+  padding: 28px 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  border-left: 1px solid var(--border);
+}
 
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
+/* ── Member grid (2 per row) ─────────────────────────────────────── */
+.members-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 52px;
+}
+@media (max-width: 640px) {
+  .members-grid { grid-template-columns: 1fr; }
+  .leader-card  { grid-template-columns: 1fr; }
+}
 
-<div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}><br><!--[Full CV]({{ site.url }}{{ site.baseurl }}/downloads/cv_Matsika_2023.pdf)--></i><a href="{{ site.url }}{{ site.baseurl }}/downloads/cv_Matsika_2025.pdf"><img src="{{ site.url }}{{ site.baseurl }}/images/teampic/cv.png" width="30" height="30"></a>
-  <ul style="overflow: hidden">
+.member-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.member-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.11);
+  transform: translateY(-2px);
+}
+.member-card .member-img {
+  width: 110px;
+  height: 100%;
+  min-height: 140px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+.member-card .member-info {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  border-left: 1px solid var(--border);
+}
 
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
+/* ── Shared info styles ──────────────────────────────────────────── */
+.member-name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin: 0;
+}
+.leader-card .member-name { font-size: 1.5rem; }
 
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
+.member-role {
+  font-size: 1rem;
+  color: var(--red);
+  font-weight: 500;
+  margin: 0;
+}
+.member-email {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0;
+}
+.member-email a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s, color 0.15s;
+}
+.member-email a:hover { color: var(--red); border-color: var(--red); }
 
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
+.member-cv a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--red);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+  margin-top: 4px;
+}
+.member-cv a:hover { border-color: var(--red); }
+.member-cv a::before { content: '↓'; }
 
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
+.member-edu {
+  list-style: none;
+  padding: 0; margin: 6px 0 0;
+}
+.member-edu li {
+  font-size: 0.95rem;
+  color: var(--muted);
+  padding-left: 14px;
+  position: relative;
+  margin-bottom: 3px;
+}
+.member-edu li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--gold);
+  font-weight: 700;
+}
 
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
+/* ── Collaborators ───────────────────────────────────────────────── */
+.collab-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 52px;
+}
+.collab-list a {
+  display: inline-block;
+  padding: 7px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 100px;
+  font-size: 1rem;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+.collab-list a:hover {
+  border-color: var(--red);
+  color: var(--red);
+  background: rgba(139,26,26,0.04);
+}
 
-  </ul>
+/* ── Former members ──────────────────────────────────────────────── */
+.alumni-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 52px;
+}
+@media (max-width: 768px) { .alumni-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .alumni-grid { grid-template-columns: 1fr; } }
+
+.alumni-group h4 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.1rem;
+  color: var(--ink);
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+.alumni-group ul {
+  list-style: none;
+  padding: 0; margin: 0;
+}
+.alumni-group ul li {
+  font-size: 1rem;
+  color: var(--muted);
+  padding: 4px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.alumni-group ul li:last-child { border-bottom: none; }
+</style>
+
+<div class="team-page">
+
+  <!-- ══ GROUP LEADER ═══════════════════════════════════════════════ -->
+  <h2 class="team-section-title">Group Leader</h2>
+
+  {% for member in site.data.group_leader %}
+  <div class="leader-card">
+    <img class="member-img"
+         src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+         alt="{{ member.name }}" />
+    <div class="member-info">
+      <p class="member-name">{{ member.name }}</p>
+      <p class="member-role">{{ member.info }}</p>
+      <p class="member-email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+      <p class="member-cv"><a href="{{ site.url }}{{ site.baseurl }}/downloads/cv_Matsika_2025.pdf">Download CV</a></p>
+      <ul class="member-edu">
+        {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
+        {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
+        {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
+        {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
+        {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+
+  <!-- ══ MEMBERS ════════════════════════════════════════════════════ -->
+  <h2 class="team-section-title">Members</h2>
+
+  <div class="members-grid">
+  {% for member in site.data.team_members %}
+    <div class="member-card">
+      <img class="member-img"
+           src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}"
+           alt="{{ member.name }}" />
+      <div class="member-info">
+        <p class="member-name">{{ member.name }}</p>
+        <p class="member-role">{{ member.info }}</p>
+        <p class="member-email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></p>
+        <ul class="member-edu">
+          {% if member.number_educ >= 1 %}<li>{{ member.education1 }}</li>{% endif %}
+          {% if member.number_educ >= 2 %}<li>{{ member.education2 }}</li>{% endif %}
+          {% if member.number_educ >= 3 %}<li>{{ member.education3 }}</li>{% endif %}
+          {% if member.number_educ >= 4 %}<li>{{ member.education4 }}</li>{% endif %}
+          {% if member.number_educ >= 5 %}<li>{{ member.education5 }}</li>{% endif %}
+        </ul>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+
+  <!-- ══ COLLABORATORS ══════════════════════════════════════════════ -->
+  <h2 class="team-section-title">Collaborators</h2>
+  <div class="collab-list">
+    {% for publi in site.data.collaborators %}
+      <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+    {% endfor %}
+  </div>
+
+  <!-- ══ FORMER MEMBERS ════════════════════════════════════════════ -->
+  <h2 class="team-section-title">Former Members</h2>
+  <div class="alumni-grid">
+
+    <div class="alumni-group">
+      <h4>Postdoctoral Fellows</h4>
+      <ul>
+        {% for member in site.data.alumni_postdocs %}
+        <li>{{ member.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="alumni-group">
+      <h4>Graduate Students</h4>
+      <ul>
+        {% for member in site.data.alumni_grad %}
+        <li>{{ member.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="alumni-group">
+      <h4>Bachelor Students</h4>
+      <ul>
+        {% for member in site.data.alumni_bsc %}
+        <li>{{ member.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="alumni-group">
+      <h4>Highschool Students</h4>
+      <ul>
+        {% for member in site.data.alumni_highschool %}
+        <li>{{ member.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-## Members
-{% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-
-
-<!--## Alumni
-
-{% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}-->
-
-## Collaborators
-{% for publi in site.data.collaborators %}
-
-  <a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
-{% endfor %}
-
-
-## Former members
-<div class="row">
-
-<div class="col-sm-3 clearfix">
-<h4>Postdoctoral Fellows</h4>
-{% for member in site.data.alumni_postdocs %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-3 clearfix">
-<h4>Graduate students</h4>
-{% for member in site.data.alumni_grad %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-3 clearfix">
-<h4>Bachelor Students</h4>
-{% for member in site.data.alumni_bsc %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-<div class="col-sm-3 clearfix">
-<h4>Highschool Students</h4>
-{% for member in site.data.alumni_highschool %}
-{{ member.name }}
-{% endfor %}
-</div>
-
-</div>
-
-
-<!--## Administrative Support-->
+strative Support-->
 <!--<a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.-->
